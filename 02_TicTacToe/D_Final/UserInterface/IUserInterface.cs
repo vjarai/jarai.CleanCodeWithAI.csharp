@@ -1,6 +1,6 @@
-﻿using Jarai.CleanCodeWithAI.TicTacToe.Refactored.Logic;
+﻿using Jarai.CleanCodeWithAI.TicTacToe.Final.Logic;
 
-namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.UserInterface
+namespace Jarai.CleanCodeWithAI.TicTacToe.Final.UserInterface
 {
     public interface IUserInterface
     {

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{067EDA01-194A-4DD9-A61A-A88423A4E0DE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Jarai.CleanCodeWithAI.TicTacToe.Refactored</RootNamespace>
-    <AssemblyName>Jarai.CleanCodeWithAI.TicTacToe.Refactored</AssemblyName>
+    <RootNamespace>Jarai.CleanCodeWithAI.TicTacToe.Final</RootNamespace>
+    <AssemblyName>Jarai.CleanCodeWithAI.TicTacToe.Final</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

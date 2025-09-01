@@ -1,16 +1,16 @@
 ﻿using System.Collections.Generic;
-using Jarai.CleanCodeWithAI.TicTacToe.Refactored.Logic;
-using Jarai.CleanCodeWithAI.TicTacToe.Refactored.UserInterface;
+using Jarai.CleanCodeWithAI.TicTacToe.Final.Logic;
+using Jarai.CleanCodeWithAI.TicTacToe.Final.UserInterface;
 
 namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.Tests
 {
     public class FakeUserInterface : IUserInterface
     {
-        private int _readLineBufferIndex = 0;
+        private int _readLineBufferIndex;
 
         public int[] ReadLineBuffer { get; set; }
 
-        public List<string> WriteLineBuffer { get;  } = new List<string>();
+        public List<string> WriteLineBuffer { get; } = new List<string>();
 
 
         public int GetMove(Player player)
@@ -24,7 +24,7 @@ namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.Tests
 
         public void ShowMessage(string message)
         {
-           WriteLineBuffer.Add(message);
+            WriteLineBuffer.Add(message);
         }
     }
 }

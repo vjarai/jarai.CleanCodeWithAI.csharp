@@ -1,7 +1,7 @@
-﻿using Jarai.CleanCodeWithAI.TicTacToe.Refactored.Logic;
-using Jarai.CleanCodeWithAI.TicTacToe.Refactored.UserInterface;
+﻿using Jarai.CleanCodeWithAI.TicTacToe.Final.Logic;
+using Jarai.CleanCodeWithAI.TicTacToe.Final.UserInterface;
 
-namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored
+namespace Jarai.CleanCodeWithAI.TicTacToe.Final
 {
     internal class Program
     {

@@ -1,4 +1,4 @@
-﻿namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.Logic
+﻿namespace Jarai.CleanCodeWithAI.TicTacToe.Final.Logic
 {
     public enum Player
     {

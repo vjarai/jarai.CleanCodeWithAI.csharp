@@ -1,5 +1,5 @@
 ﻿using System;
-using Jarai.CleanCodeWithAI.TicTacToe.Refactored.Logic;
+using Jarai.CleanCodeWithAI.TicTacToe.Final.Logic;
 using Xunit;
 
 namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.Tests

@@ -1,18 +1,18 @@
 ﻿using System.Linq;
-using Jarai.CleanCodeWithAI.TicTacToe.Refactored.Logic;
+using Jarai.CleanCodeWithAI.TicTacToe.Final.Logic;
 using Xunit;
 
 namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.Tests
 {
     public class TicTacToeGameTests
     {
-        [Fact()]
+        [Fact]
         public void GivenPlayerX_WhenPlaysWinningMoves_ThenXIsWinner()
         {
             // Arrange
             var userInterface = new FakeUserInterface
             {
-                ReadLineBuffer = new[] {0, 1, 4, 2, 5, 3 }
+                ReadLineBuffer = new[] { 0, 1, 4, 2, 5, 3 }
             };
 
             var game = new TicTacToeGame(userInterface);
@@ -24,7 +24,7 @@ namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.Tests
             Assert.Equal("The winner is X!", userInterface.WriteLineBuffer.Last());
         }
 
-        [Fact()]
+        [Fact]
         public void GivenPlayerO_WhenPlaysWinningMoves_ThenOIsWinner()
         {
             // Arrange
@@ -42,7 +42,7 @@ namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.Tests
             Assert.Equal("The winner is O!", userInterface.WriteLineBuffer.Last());
         }
 
-        [Fact()]
+        [Fact]
         public void GivenFullBoardWithoutWinner_WhenGameEnds_ThenNoOneWon()
         {
             // Arrange

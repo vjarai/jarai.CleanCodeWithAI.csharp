@@ -1,7 +1,7 @@
 ﻿using System;
-using Jarai.CleanCodeWithAI.TicTacToe.Refactored.UserInterface;
+using Jarai.CleanCodeWithAI.TicTacToe.Final.UserInterface;
 
-namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.Logic
+namespace Jarai.CleanCodeWithAI.TicTacToe.Final.Logic
 {
     public class TicTacToeGame
     {

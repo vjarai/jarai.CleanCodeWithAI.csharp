@@ -1,7 +1,7 @@
 ﻿using System;
-using Jarai.CleanCodeWithAI.TicTacToe.Refactored.Logic;
+using Jarai.CleanCodeWithAI.TicTacToe.Final.Logic;
 
-namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.UserInterface
+namespace Jarai.CleanCodeWithAI.TicTacToe.Final.UserInterface
 {
     internal class ConsoleUserInterface : IUserInterface
     {
@@ -21,11 +21,14 @@ namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.UserInterface
         public void ShowBoard(TicTacToeBoard board)
         {
             Console.Clear();
-            Console.WriteLine(" {0} | {1} | {2} ", board.GetFieldSymbol(0), board.GetFieldSymbol(1), board.GetFieldSymbol(2));
+            Console.WriteLine(" {0} | {1} | {2} ", board.GetFieldSymbol(0), board.GetFieldSymbol(1),
+                board.GetFieldSymbol(2));
             Console.WriteLine(" --------- ");
-            Console.WriteLine(" {0} | {1} | {2} ", board.GetFieldSymbol(3), board.GetFieldSymbol(4), board.GetFieldSymbol(5));
+            Console.WriteLine(" {0} | {1} | {2} ", board.GetFieldSymbol(3), board.GetFieldSymbol(4),
+                board.GetFieldSymbol(5));
             Console.WriteLine(" --------- ");
-            Console.WriteLine(" {0} | {1} | {2} ", board.GetFieldSymbol(6), board.GetFieldSymbol(7), board.GetFieldSymbol(8));
+            Console.WriteLine(" {0} | {1} | {2} ", board.GetFieldSymbol(6), board.GetFieldSymbol(7),
+                board.GetFieldSymbol(8));
         }
     }
 }

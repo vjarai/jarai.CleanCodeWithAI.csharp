@@ -5,31 +5,23 @@ namespace Jarai.CleanCodeWithAI.TicTacToe.Original
 {
     public class Program
     {
-        public char Box1 { get; set; }
+        public char Box1;
+        public char Box2;
+        public char Box3;
+        public char Box4;
+        public char Box5;
+        public char Box6;
+        public char Box7;
+        public char Box8;
+        public char Box9;
 
-        public char Box2 { get; set; }
+        public bool Error;
 
-        public char Box3 { get; set; }
+        public bool IsWin;
 
-        public char Box4 { get; set; }
+        public bool IsY;
 
-        public char Box5 { get; set; }
-
-        public char Box6 { get; set; }
-
-        public char Box7 { get; set; }
-
-        public char Box8 { get; set; }
-
-        public char Box9 { get; set; }
-
-        public bool Error { get; set; }
-
-        public bool IsWin { get; set; }
-
-        public bool IsY { get; set; }
-
-        public char WinPerson { get; set; }
+        public char WinPerson;
 
         public void CheckWin()
         {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.Logic
+namespace Jarai.CleanCodeWithAI.TicTacToe.Final.Logic
 {
     public class TicTacToeBoard
     {
@@ -27,15 +27,12 @@ namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.Logic
 
         public TicTacToeBoard()
         {
-            Reset();
+            ClearFields();
         }
 
-        public void Reset()
+        public void ClearFields()
         {
-            for (int i = 0; i < _fields.Length; i++)
-            {
-                _fields[i] = Player.None;
-            }
+            for (var i = 0; i < _fields.Length; i++) _fields[i] = Player.None;
         }
 
         public char GetFieldSymbol(int fieldNumber)
@@ -46,10 +43,8 @@ namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.Logic
         public bool HasPlayerWon(Player player)
         {
             for (var row = 0; row < _winningKombinations.Length; row++)
-            {
                 if (_winningKombinations[row].All(x => _fields[x] == player))
                     return true;
-            }
 
             return false;
         }
@@ -61,7 +56,8 @@ namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.Logic
 
         public void SetField(int fieldNumber, Player player)
         {
-            if (!IsFieldnumberValid(fieldNumber)) throw new Exception("Wrong selection entered!\nPress any key to try again..");
+            if (!IsFieldnumberValid(fieldNumber))
+                throw new Exception("Wrong selection entered!\nPress any key to try again..");
 
             if (!IsFieldEmpty(fieldNumber)) throw new Exception("Error: box not vacant!\nPress any key to try again..");
 
