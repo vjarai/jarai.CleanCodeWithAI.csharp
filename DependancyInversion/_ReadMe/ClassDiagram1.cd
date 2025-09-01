@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Dependency Inversion Principle:&#xD;&#xA;&#xD;&#xA;•	IPrinter is the abstraction.&#xD;&#xA;•	ConsolePrinter is a concrete implementation.&#xD;&#xA;•	DocumentManager (high-level module) depends on the abstraction (IPrinter), not the concrete ConsolePrinter.&#xD;&#xA;•	In Program, you inject the dependency.&#xD;&#xA;&#xD;&#xA;This setup follows the Dependency Inversion Principle by ensuring high-level modules depend on abstractions, not concrete implementations.&#xD;&#xA;">
+    <Position X="0.781" Y="0.771" Height="1.568" Width="8.846" />
+  </Comment>
+  <Class Name="DependancyInversion.DocumentManager">
+    <Position X="1.25" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_printer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DependancyInversion.ConsolePrinter">
+    <Position X="5.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>ConsolePrinter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DependancyInversion.IPrinter">
+    <Position X="5.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>IPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
