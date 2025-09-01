@@ -2,7 +2,7 @@
 using Jarai.CleanCodeWithAI.TicTacToe.Final.Logic;
 using Jarai.CleanCodeWithAI.TicTacToe.Final.UserInterface;
 
-namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.Tests
+namespace Jarai.CleanCodeWithAI.TicTacToe.Final.Tests
 {
     public class FakeUserInterface : IUserInterface
     {
