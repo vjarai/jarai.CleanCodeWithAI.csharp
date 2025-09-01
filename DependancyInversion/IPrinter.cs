@@ -1,4 +1,4 @@
-namespace DependancyInversion;
+namespace DependencyInversion;
 
 public interface IPrinter
 {

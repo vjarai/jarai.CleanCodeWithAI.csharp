@@ -99,7 +99,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegragation", "Int
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "D Interface Segragation Principle", "D Interface Segragation Principle", "{19DCE0F9-4F20-481F-89DE-702355148D28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependancyInversion", "DependancyInversion\DependancyInversion.csproj", "{7A79FD8C-B736-4BE5-B23B-C2E07C99AB5C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversion", "DependancyInversion\DependencyInversion.csproj", "{7A79FD8C-B736-4BE5-B23B-C2E07C99AB5C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "E Dependancy Inversion Principle", "E Dependancy Inversion Principle", "{1D055D01-8AB2-4561-8680-7B859C3615C9}"
 EndProject

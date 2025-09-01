@@ -1,6 +1,6 @@
 using System;
 
-namespace DependancyInversion
+namespace DependencyInversion
 {
     public class ConsolePrinter : IPrinter
     {

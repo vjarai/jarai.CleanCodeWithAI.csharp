@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="C:\Users\vikto\source\repos\vjarai\jarai.CleanCodeWithAI.csharp\DependancyInversion\ConsolePrinter.cs" Link="ConsolePrinter.cs" />
-  </ItemGroup>
-
 </Project>
