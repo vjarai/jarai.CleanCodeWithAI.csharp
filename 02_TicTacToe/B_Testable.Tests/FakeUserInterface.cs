@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Jarai.CleanCodeWithAI.TicTacToe.Step1.Tests
+namespace Jarai.CleanCodeWithAI.TicTacToe.Testable.Tests
 {
     public class FakeUserInterface : IUserInterface
     {

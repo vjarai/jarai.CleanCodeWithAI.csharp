@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Jarai.CleanCodeWithAI.TicTacToe.Step1
+namespace Jarai.CleanCodeWithAI.TicTacToe.Testable
 {
     public class UserInterface : IUserInterface
     {

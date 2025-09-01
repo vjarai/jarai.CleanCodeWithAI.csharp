@@ -7,7 +7,7 @@ namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.Tests
     public class TicTacToeBoardTests
     {
         [Fact]
-        public void Can_NOT_move_to_Field_0()
+        public void GivenMoveToField0_WhenSetField_ThenThrowsException()
         {
             // Arrange
             var board = new TicTacToeBoard();
@@ -17,7 +17,7 @@ namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.Tests
         }
 
         [Fact]
-        public void Can_NOT_move_to_Field_10()
+        public void GivenMoveToField10_WhenSetField_ThenThrowsException()
         {
             // Arrange
             var board = new TicTacToeBoard();
@@ -27,7 +27,7 @@ namespace Jarai.CleanCodeWithAI.TicTacToe.Refactored.Tests
         }
 
         [Fact]
-        public void Can_NOT_move_to_nonempty_Field()
+        public void GivenNonEmptyField_WhenSetField_ThenThrowsException()
         {
             // Arrange
             var board = new TicTacToeBoard();

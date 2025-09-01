@@ -10,8 +10,8 @@
     <ProjectGuid>{EF6C547C-636D-479C-B871-8D6CF46D3F2C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jarai.CleanCodeWithAI.TicTacToe.Step1.Tests</RootNamespace>
-    <AssemblyName>Jarai.CleanCodeWithAI.TicTacToe.Step1.Tests</AssemblyName>
+    <RootNamespace>Jarai.CleanCodeWithAI.TicTacToe.Testable.Tests</RootNamespace>
+    <AssemblyName>Jarai.CleanCodeWithAI.TicTacToe.Testable.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -107,9 +107,9 @@
     <None Include="_ReadMe\ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\B_Step1\TicTacToe.Step1.csproj">
+    <ProjectReference Include="..\B_Testable\TicTacToe.Testable.csproj">
       <Project>{EA3CC322-0673-43DD-8297-B58829C98DC2}</Project>
-      <Name>TicTacToe.Step1</Name>
+      <Name>TicTacToe.Testable</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
