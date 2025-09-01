@@ -1,8 +1,7 @@
-﻿namespace Solid.Refactored
+﻿namespace OpenClosed.Refactored;
+
+public interface IAlexaSkill
 {
-    public interface IAlexaSkill
-    {
-        bool CanHandleRequest(string request);
-        void HandleRequest(string request);
-    }
+    bool CanHandleRequest(string request);
+    void HandleRequest(string request);
 }

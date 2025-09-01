@@ -1,16 +1,15 @@
-﻿namespace Solid.Refactored
+﻿namespace OpenClosed.Refactored;
+
+public abstract class AlexaSkill : IAlexaSkill
 {
-    public abstract class AlexaSkill : IAlexaSkill
+    public abstract bool CanHandleRequest(string request);
+
+
+    public abstract void HandleRequest(string request);
+
+    protected string GetParameter(string request, string token, string defaultValue)
     {
-        protected string GetParameter(string request, string token, string defaultValue)
-        {
-            return request.ToLower().Split(' ').SkipWhile(w => w != token.ToLower()).Skip(1).FirstOrDefault() ??
-                   defaultValue;
-        }
-
-        public abstract bool CanHandleRequest(string request);
-
-
-        public abstract void HandleRequest(string request);
+        return request.ToLower().Split(' ').SkipWhile(w => w != token.ToLower()).Skip(1).FirstOrDefault() ??
+               defaultValue;
     }
 }

@@ -1,17 +1,16 @@
-﻿namespace Solid.Refactored
+﻿namespace OpenClosed.Refactored;
+
+public class RadioSkill : AlexaSkill
 {
-    public class RadioSkill : AlexaSkill
+    public override bool CanHandleRequest(string request)
     {
-        public override bool CanHandleRequest(string request)
-        {
-            return request.Contains("radio");
-        }
+        return request.Contains("radio");
+    }
 
-        public override void HandleRequest(string request)
-        {
-            var parameter = GetParameter(request, "Radio", "<DefaultSender>");
+    public override void HandleRequest(string request)
+    {
+        var parameter = GetParameter(request, "Radio", "<DefaultSender>");
 
-            Console.WriteLine($"Ich spiele den Radiosender '{parameter}'.");
-        }
+        Console.WriteLine($"Ich spiele den Radiosender '{parameter}'.");
     }
 }

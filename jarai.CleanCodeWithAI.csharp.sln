@@ -39,7 +39,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Excercise", "02_T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Exercise.Tests", "02_TicTacToe\C_Exercise.Tests\TicTacToe.Exercise.Tests.csproj", "{7C6AFFCD-A146-4E84-AB03-C4AF50DDE3D6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Solid", "5 Solid", "{D0C2F955-6319-4C0E-89C1-F99237344A7A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Open Closed Priciple", "1 Open Closed Priciple", "{D0C2F955-6319-4C0E-89C1-F99237344A7A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "A Original", "A Original", "{502E8946-9512-42CD-A404-70B441890EFD}"
 EndProject
@@ -71,9 +71,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GildedRoseKata.Refactored2"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GildedRoseKata.Refactored2.Tests", "06_GildedRose\C_Refactored2.Tests\GildedRoseKata.Refactored2.Tests.csproj", "{0F3EBBE8-72C7-4B86-8CD7-19F34EEF0655}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid.Refactored", "05_Solid\Solid.Refactored\Solid.Refactored.csproj", "{CD668D95-705E-40F2-9FD0-CD85C1D2FFA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosed.Final", "05_Solid\Solid.Refactored\OpenClosed.Final.csproj", "{CD668D95-705E-40F2-9FD0-CD85C1D2FFA7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid.Original", "05_Solid\Solid.Original\Solid.Original.csproj", "{5D14EFA1-3483-4031-8290-81132A214E37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosed.Original", "05_Solid\Solid.Original\OpenClosed.Original.csproj", "{5D14EFA1-3483-4031-8290-81132A214E37}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kniffel.Original", "07_Kniffel\Kniffel.Original\Kniffel.Original.csproj", "{578D5B76-73C2-472B-B949-38F73B398CA1}"
 EndProject

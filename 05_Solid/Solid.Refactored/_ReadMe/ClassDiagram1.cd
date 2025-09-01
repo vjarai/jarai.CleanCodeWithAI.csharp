@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Class Name="Solid.Refactored.Alexa">
+  <Class Name="OpenClosed.Refactored.Alexa">
     <Position X="3" Y="0.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AACAAAAAAAAAAABAAAAAAAAAAAQAQAAAAAAAAAAAAAA=</HashCode>
@@ -10,7 +10,7 @@
       <Field Name="_installedSkills" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="Solid.Refactored.AlexaSkill">
+  <Class Name="OpenClosed.Refactored.AlexaSkill">
     <Position X="9" Y="2.25" Width="4.5" />
     <TypeIdentifier>
       <HashCode>AAAQAAAAAAAAAABAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
@@ -18,28 +18,28 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Solid.Refactored.LampenSkill">
+  <Class Name="OpenClosed.Refactored.LampenSkill">
     <Position X="6" Y="4.5" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAABAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>LampenSkill.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Solid.Refactored.RadioSkill">
+  <Class Name="OpenClosed.Refactored.RadioSkill">
     <Position X="13.5" Y="4.5" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAABAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>RadioSkill.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Solid.Refactored.WettervorhersageSkill">
+  <Class Name="OpenClosed.Refactored.WettervorhersageSkill">
     <Position X="9.75" Y="4.5" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAABAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>WettervorhersageSkill.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="Solid.Refactored.IAlexaSkill">
+  <Interface Name="OpenClosed.Refactored.IAlexaSkill">
     <Position X="9.5" Y="0.5" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAABAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
