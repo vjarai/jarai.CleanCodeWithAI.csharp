@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Interface Segragation Principle&#xD;&#xA;&#xD;&#xA;•	IPrinter and IScanner are small, focused interfaces.&#xD;&#xA;•	MultiFunctionPrinter implements both, while SimplePrinter only implements what it needs.&#xD;&#xA;•	This avoids forcing SimplePrinter to implement unnecessary methods.">
+    <Position X="1.729" Y="0.5" Height="1.042" Width="6.049" />
+  </Comment>
+  <Class Name="InterfaceSegragation.MultiFunctionPrinter" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>MultiFunctionPrinter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InterfaceSegragation.SimplePrinter" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>SimplePrinter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="InterfaceSegragation.IPrinter">
+    <Position X="2.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>IPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InterfaceSegragation.IScanner">
+    <Position X="5.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IScanner.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

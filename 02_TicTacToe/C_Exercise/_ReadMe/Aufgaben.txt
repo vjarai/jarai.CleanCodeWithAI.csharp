@@ -1,4 +1,0 @@
-﻿Aufgabe2: Echte Unit Tests ermöglichen
-====================================================
-
-Extract Class:  

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Auto HAT EINEN Motor (Aggregation)">
+    <Position X="5.87" Y="0.661" Height="0.401" Width="2.736" />
+  </Comment>
+  <Comment CommentText="Cabrio IST EIN Auto (Vererbung)">
+    <Position X="2.031" Y="3.797" Height="0.437" Width="2.299" />
+  </Comment>
+  <Comment CommentText="Fazit:&#xD;&#xA;====&#xD;&#xA;Benutze Vererbung aus Gründen der Austauschbarkeit, &#xD;&#xA;benutze Aggregation aus Gründen der Wiederverwertung.&#xD;&#xA;&#xD;&#xA;Best Practice:&#xD;&#xA;=========&#xD;&#xA;=&gt; Favour Composition over Inheritance!">
+    <Position X="7.401" Y="4.651" Height="1.781" Width="3.752" />
+  </Comment>
+  <Class Name="Relationen.Cabrio">
+    <Position X="2.75" Y="4.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAACAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cabrio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Relationen.Car">
+    <Position X="3" Y="1.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAkAAAAAAAAAAgAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Relationen.Engine">
+    <Position X="8.25" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAIAAAQAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
