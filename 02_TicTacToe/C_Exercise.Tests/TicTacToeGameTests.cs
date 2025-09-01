@@ -6,7 +6,7 @@ namespace Jarai.CleanCodeWithAI.TicTacToe.Exercise.Tests
     public class TicTacToeGameTests
     {
         [Fact()]
-        public void Player_X_can_win()
+        public void GivenPlayerX_WhenPlaysWinningMoves_ThenXIsWinner()
         {
             // Arrange
             var userInterface = new FakeUserInterface
@@ -24,7 +24,7 @@ namespace Jarai.CleanCodeWithAI.TicTacToe.Exercise.Tests
         }
 
         [Fact()]
-        public void Moves_are_validity_checked()
+        public void GivenOccupiedBox_WhenPlayerMoves_ThenErrorBoxNotVacant()
         {
             // Arrange
             var userInterface = new FakeUserInterface
@@ -42,7 +42,7 @@ namespace Jarai.CleanCodeWithAI.TicTacToe.Exercise.Tests
         }
 
         [Fact()]
-        public void Moves_are_range_checked()
+        public void GivenOutOfRangeMove_WhenPlayerMoves_ThenErrorWrongSelection()
         {
             // Arrange
             var userInterface = new FakeUserInterface
@@ -60,7 +60,7 @@ namespace Jarai.CleanCodeWithAI.TicTacToe.Exercise.Tests
         }
 
         [Fact()]
-        public void Player_Y_can_win()
+        public void GivenPlayerY_WhenPlaysWinningMoves_ThenYIsWinner()
         {
             // Arrange
             var userInterface = new FakeUserInterface
@@ -79,7 +79,7 @@ namespace Jarai.CleanCodeWithAI.TicTacToe.Exercise.Tests
 
 
         [Fact()]
-        public void No_player_can_win()
+        public void GivenFullBoardWithoutWinner_WhenGameEnds_ThenNoOneWon()
         {
             // Arrange
             var userInterface = new FakeUserInterface
