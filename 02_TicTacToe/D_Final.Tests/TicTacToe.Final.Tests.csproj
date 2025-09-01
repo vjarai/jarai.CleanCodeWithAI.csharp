@@ -109,7 +109,7 @@
   <ItemGroup>
     <ProjectReference Include="..\D_Final\TicTacToe.Final.csproj">
       <Project>{067eda01-194a-4dd9-a61a-a88423a4e0de}</Project>
-      <Name>TicTacToe.Refactored</Name>
+      <Name>TicTacToe.Final</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
