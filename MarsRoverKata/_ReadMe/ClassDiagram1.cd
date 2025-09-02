@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="jarai.tdd7.MarsRoverKata.MarsRover">
+    <Position X="1.5" Y="3.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>BIAAAAAAAIICAAAAAIAAAAAIIAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>MarsRover.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_grid" />
+      <Field Name="_currentDirection" />
+      <Field Name="_currentPosition" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="jarai.tdd7.MarsRoverKata.Position">
+    <Position X="11" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jarai.tdd7.MarsRoverKata.Grid">
+    <Position X="6.5" Y="2.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgQAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Grid.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_obstaclePositions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="jarai.tdd7.MarsRoverKata.Direction">
+    <Position X="6.5" Y="5.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAEAAAAAAAAAAAAAECAAAAAAAAAAAQ=</HashCode>
+      <FileName>Direction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jarai.tdd7.MarsRoverKata.SouthDirection">
+    <Position X="1" Y="8.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAECAQAAAAAAAAAA=</HashCode>
+      <FileName>SouthDirection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jarai.tdd7.MarsRoverKata.NorthDirection">
+    <Position X="4.75" Y="8.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAECAQAAAAAAAAAA=</HashCode>
+      <FileName>NorthDirection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jarai.tdd7.MarsRoverKata.EastDirection">
+    <Position X="8.25" Y="8.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAECAQAAAAAAAAAA=</HashCode>
+      <FileName>EastDirection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jarai.tdd7.MarsRoverKata.WestDirection">
+    <Position X="11.75" Y="8.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAECAQAAAAAAAAAA=</HashCode>
+      <FileName>WestDirection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

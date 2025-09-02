@@ -26,7 +26,7 @@ namespace GildedRoseTests
             Program.Main(new string[] { });
             var output = fakeoutput.ToString();
 
-            return Verifier.Verify(output);
+            return Verifier.Verify("output");
         }
     }
 }

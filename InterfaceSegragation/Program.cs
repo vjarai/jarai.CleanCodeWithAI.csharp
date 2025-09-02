@@ -1,4 +1,4 @@
-﻿namespace InterfaceSegragation
+﻿namespace InterfaceSegregation
 {
     internal class Program
     {

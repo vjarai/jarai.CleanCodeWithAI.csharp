@@ -1,4 +1,4 @@
-namespace InterfaceSegragation;
+namespace InterfaceSegregation;
 
 public class MultiFunctionPrinter : IPrinter, IScanner
 {
