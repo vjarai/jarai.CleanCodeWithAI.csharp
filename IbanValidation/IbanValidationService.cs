@@ -1,8 +1,6 @@
-using System;
-using System.Globalization;
 using System.Numerics;
 
-namespace IbanValidationService
+namespace IbanValidation
 {
     public class IbanValidationService
     {

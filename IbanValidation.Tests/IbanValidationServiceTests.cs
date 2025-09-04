@@ -1,6 +1,4 @@
-using Xunit;
-
-namespace IbanValidationService.Tests
+namespace IbanValidation.Tests
 {
     public class IbanValidationServiceTests
     {
@@ -11,6 +9,7 @@ namespace IbanValidationService.Tests
         [InlineData("GB82WEST12345698765432")] // UK
         [InlineData("FR1420041010050500013M02606")] // France
         [InlineData("GR1601101250000000012300695")] // Greece
+        [InlineData("AT611904300234573201")]
         public void Validate_ValidIbans_ReturnsTrue(string iban)
         {
             Assert.True(_service.Validate(iban));
@@ -24,6 +23,7 @@ namespace IbanValidationService.Tests
         [InlineData("GB82WEST12345698765431")]
         [InlineData("FR1420041010050500013M02607")]
         [InlineData("GR1601101250000000012300696")]
+        [InlineData("AT61190430023457320")]
         public void Validate_InvalidIbans_ReturnsFalse(string iban)
         {
             Assert.False(_service.Validate(iban));

@@ -25,7 +25,8 @@
 
 
 	<ItemGroup>
-    <ProjectReference Include="..\IbanValidationService\IbanValidationService.csproj" />
+    <ProjectReference Include="..\IbanValidationService\IbanValidation.csproj" />
+    <ProjectReference Include="..\IbanValidation\IbanValidation.csproj" />
   </ItemGroup>
 
  

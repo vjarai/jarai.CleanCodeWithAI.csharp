@@ -1,4 +1,4 @@
-﻿namespace IbanValidationService
+﻿namespace IbanValidation
 {
     internal class Program
     {
