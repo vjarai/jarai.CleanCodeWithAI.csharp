@@ -12,7 +12,7 @@ namespace Jarai.CleanCodeWithAI.Telefon.Original
 
         }
 
-        internal Telefon(TelefonZustand aktuellerZustand)
+        public Telefon(TelefonZustand aktuellerZustand)
         {
             _aktuellerZustand = aktuellerZustand;
         }

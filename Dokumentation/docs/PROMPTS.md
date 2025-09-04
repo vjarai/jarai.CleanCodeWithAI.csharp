@@ -13,3 +13,5 @@ generate markdown documentation for all classes, public methods, fields and prop
 ### Generate UML Diagrams in plantuml Format.
 generate UML diagrams in plantuml format for all classes and their relationships
 
+# Create ER Diagramm using Plantuml 
+Create er diagramm for the shopping database using plantuml

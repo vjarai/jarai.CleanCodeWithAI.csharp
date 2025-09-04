@@ -1,0 +1,23 @@
+﻿@startuml ShoppingER
+
+entity "Customers" as Customers {
+  + CustomerId : int <<PK>>
+  Name : nvarchar
+  Email : nvarchar
+}
+
+entity "Products" as Products {
+  + ProductId : int <<PK>>
+  Name : nvarchar
+  Price : decimal
+}
+
+entity "CustomerProducts" as CustomerProducts {
+  + CustomerId : int <<PK,FK>>
+  + ProductId : int <<PK,FK>>
+}
+
+Customers ||--o{ CustomerProducts : ""
+Products  ||--o{ CustomerProducts : ""
+
+@enduml
