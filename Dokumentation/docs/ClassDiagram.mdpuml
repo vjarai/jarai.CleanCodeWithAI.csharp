@@ -1,0 +1,94 @@
+﻿@startuml
+
+' Telefon.Original and Telefon.Exercise (similar structure)
+class Telefon {
+    - TelefonZustand _aktuellerZustand
+    + Abheben()
+    + AnnehmenAnruf()
+    + Auflegen()
+    + Sprechen()
+    + Wählen()
+}
+enum TelefonZustand {
+    Aufgelegt
+    Abgehoben
+    Verbunden
+}
+Telefon --> TelefonZustand
+
+' Telefon.Refactored (state pattern)
+class Zustand {
+    + Bezeichnung: string
+    + Abheben(): Zustand
+    + AnnehmenAnruf(): Zustand
+    + Auflegen(): Zustand
+    + Sprechen(): Zustand
+    + Wählen(): Zustand
+}
+class Telefon {
+    - Zustand _aktuellerZustand
+    + Abheben()
+    + AnnehmenAnruf()
+    + Auflegen()
+    + Sprechen()
+    + Wählen()
+}
+Telefon --> Zustand
+Zustand <|-- Aufgelegt
+Zustand <|-- Abgehoben
+Zustand <|-- Verbunden
+
+' Kniffel.Original
+class Kniffel {
+    - int[] dice
+    + Chance(...)
+    + yatzy(...)
+    + Ones(...)
+    + Twos(...)
+    + Threes(...)
+    + Fours()
+    + Fives()
+    + sixes()
+    + ScorePair(...)
+    + TwoPair(...)
+    + FourOfAKind(...)
+    + ThreeOfAKind(...)
+    + SmallStraight(...)
+    + LargeStraight(...)
+    + FullHouse(...)
+}
+
+' OpenApiAutomation
+class Program {
+    - Model: string
+    - JsonOptions: JsonSerializerOptions
+    + Main(args): Task<int>
+}
+class ChatCompletionsRequest {
+    + Model: string
+    + Messages: ChatMessage[]
+    + Temperature: double?
+}
+class ChatMessage {
+    + Role: string
+    + Content: string
+}
+class ChatCompletionsResponse {
+    + Id: string
+    + Choices: Choice[]
+}
+class Choice {
+    + Index: int
+    + Message: AssistantMessage
+}
+class AssistantMessage {
+    + Role: string
+    + Content: string
+}
+Program --> ChatCompletionsRequest
+Program --> ChatCompletionsResponse
+ChatCompletionsRequest --> ChatMessage
+ChatCompletionsResponse --> Choice
+Choice --> AssistantMessage
+
+@enduml
