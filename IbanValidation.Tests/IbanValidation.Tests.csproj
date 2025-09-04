@@ -21,13 +21,9 @@
 		</PackageReference>
 	</ItemGroup>
 
-
-
-
 	<ItemGroup>
-    <ProjectReference Include="..\IbanValidationService\IbanValidation.csproj" />
-    <ProjectReference Include="..\IbanValidation\IbanValidation.csproj" />
-  </ItemGroup>
+	  <ProjectReference Include="..\IbanValidation\IbanValidation.csproj" />
+	</ItemGroup>
 
  
 </Project>

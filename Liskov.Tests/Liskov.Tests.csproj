@@ -20,7 +20,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Liskov\Liskov.csproj" />
-    <ProjectReference Include="..\Relationen\Liskov.csproj" />
   </ItemGroup>
 
   <ItemGroup>
