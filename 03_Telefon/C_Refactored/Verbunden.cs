@@ -1,24 +1,23 @@
 using System.Diagnostics;
 
-namespace Jarai.CleanCodeWithAI.Telefon.Refactored
+namespace Jarai.CleanCodeWithAI.Telefon.Refactored;
+
+public class Verbunden : Zustand
 {
-    public class Verbunden : Zustand
+    public Verbunden()
+        : base("<Verbindung ist hergestellt>")
     {
-        public Verbunden()
-            : base("<Verbindung ist hergestellt>")
-        {
-        }
+    }
 
-        public override Zustand Auflegen()
-        {
-            Debug.WriteLine("Hörer wird aufgelegt.");
-            return new Aufgelegt();
-        }
+    public override Zustand Auflegen()
+    {
+        Debug.WriteLine("Hörer wird aufgelegt.");
+        return new Aufgelegt();
+    }
 
-        public override Zustand Sprechen()
-        {
-            Debug.WriteLine("Es wird gesprochen.");
-            return this;
-        }
+    public override Zustand Sprechen()
+    {
+        Debug.WriteLine("Es wird gesprochen.");
+        return this;
     }
 }

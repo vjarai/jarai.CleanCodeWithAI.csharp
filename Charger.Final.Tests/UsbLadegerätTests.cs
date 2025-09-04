@@ -1,12 +1,13 @@
-﻿using Moq;
+﻿using Adapter.Refactored;
+using Moq;
 using Xunit;
 
-namespace Adapter.Refactored.Tests;
+namespace Charger.Final.Tests;
 
 public class ApplePhoneTests
 {
     [Fact]
-    public void Aufladen_WithUsbToLightningAdapter_CallsLiefereStromViaUsb()
+    public void IphoneAufladen_WithUsbToLightningAdapter_CallsLiefereStromViaUsb()
     {
         // Arrange
         var usbLadegerätMock = new Mock<UsbLadegerät>();

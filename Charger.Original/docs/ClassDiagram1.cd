@@ -3,25 +3,25 @@
   <Comment CommentText="Ein älteres IPhone soll mit einem UsbLadegerät aufgeladen werden.&#xD;&#xA;&#xD;&#xA;Welche 3 Lösungsansätze gibt es?&#xD;&#xA;Welcher Lösungsansatz ist SOLID konform?">
     <Position X="5.417" Y="3.057" Height="0.969" Width="4.57" />
   </Comment>
-  <Class Name="Adapter.Original.ApplePhone">
-    <Position X="2.25" Y="0.75" Width="3.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
-      <FileName>ApplePhone.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Adapter.Original.LightningLadegerät">
+  <Class Name="Charger.Original.LightningLadegerät">
     <Position X="8" Y="0.75" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>LightningLadegerät.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Adapter.Original.UsbLadegerät">
+  <Class Name="Charger.Original.UsbLadegerät">
     <Position X="2.25" Y="3" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>UsbLadegerät.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Charger.Original.IPhone">
+    <Position X="2.25" Y="0.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>IPhone.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

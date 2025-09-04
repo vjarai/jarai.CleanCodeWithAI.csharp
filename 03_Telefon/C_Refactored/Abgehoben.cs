@@ -1,24 +1,23 @@
 using System.Diagnostics;
 
-namespace Jarai.CleanCodeWithAI.Telefon.Refactored
+namespace Jarai.CleanCodeWithAI.Telefon.Refactored;
+
+public class Abgehoben : Zustand
 {
-    public class Abgehoben : Zustand
+    public Abgehoben()
+        : base("<Hörer ist abgenommen>")
     {
-        public Abgehoben()
-            : base("<Hörer ist abgenommen>")
-        {
-        }
+    }
 
-        public override Zustand Auflegen()
-        {
-            Debug.WriteLine("Hörer wird aufgelegt.");
-            return new Aufgelegt();
-        }
+    public override Zustand Auflegen()
+    {
+        Debug.WriteLine("Hörer wird aufgelegt.");
+        return new Aufgelegt();
+    }
 
-        public override Zustand Wählen()
-        {
-            Debug.WriteLine("Rufnummer wird gewählt.");
-            return new Verbunden();
-        }
+    public override Zustand Wählen()
+    {
+        Debug.WriteLine("Rufnummer wird gewählt.");
+        return new Verbunden();
     }
 }

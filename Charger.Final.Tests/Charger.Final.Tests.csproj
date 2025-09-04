@@ -16,10 +16,8 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 	</ItemGroup>
-
-
 	<ItemGroup>
-		<ProjectReference Include="..\Adapter.Refactored\Adapter.Refactored.csproj" />
+	  <ProjectReference Include="..\Charger.Final\Charger.Final.csproj" />
 	</ItemGroup>
 
 </Project>

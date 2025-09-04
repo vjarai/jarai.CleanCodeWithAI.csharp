@@ -1,9 +1,8 @@
-﻿namespace Jarai.CleanCodeWithAI.Telefon.Original
+﻿namespace Jarai.CleanCodeWithAI.Telefon.Original;
+
+public enum TelefonZustand
 {
-    public enum TelefonZustand
-    {
-        Aufgelegt,
-        Abgehoben,
-        Verbunden,
-    }
+    Aufgelegt,
+    Abgehoben,
+    Verbunden
 }

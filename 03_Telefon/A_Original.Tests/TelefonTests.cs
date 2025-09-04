@@ -1,159 +1,154 @@
 ﻿using System;
 using Xunit;
 
-namespace Jarai.CleanCodeWithAI.Telefon.Original.Tests
+namespace Jarai.CleanCodeWithAI.Telefon.Original.Tests;
+
+public class TelefonTests
 {
-    public class TelefonTests
+    [Fact]
+    public void Kann_abheben_wählen_sprechen_sprechen_auflegen()
     {
-        [Fact()]
-        public void Kann_abheben_wählen_sprechen_sprechen_auflegen()
-        {
-            // Arrange
-            var telefon = new Telefon();
+        // Arrange
+        var telefon = new Telefon();
 
-            // Act
-            telefon.Abheben();
-            telefon.Wählen();
-            telefon.Sprechen();
-            telefon.Sprechen();
-            telefon.Auflegen();
-        }
+        // Act
+        telefon.Abheben();
+        telefon.Wählen();
+        telefon.Sprechen();
+        telefon.Sprechen();
+        telefon.Auflegen();
+    }
 
 
-        [Fact()]
-        public void Kann_auflegen_wenn_Verbunden()
-        {
-            // Arrange
-            var telefon = new Telefon();
+    [Fact]
+    public void Kann_auflegen_wenn_Verbunden()
+    {
+        // Arrange
+        var telefon = new Telefon();
 
-            // Act
-            telefon.AnnehmenAnruf();
-            telefon.Auflegen();
+        // Act
+        telefon.AnnehmenAnruf();
+        telefon.Auflegen();
+    }
 
-        }
+    [Fact]
+    public void Kann_auflegen_wenn_Abgehoben()
+    {
+        // Arrange
+        var telefon = new Telefon(TelefonZustand.Abgehoben);
 
-        [Fact()]
-        public void Kann_auflegen_wenn_Abgehoben()
-        {
-            // Arrange
-            var telefon = new Telefon(TelefonZustand.Abgehoben);
+        // Act
+        telefon.Auflegen();
+    }
 
-            // Act
-            telefon.Auflegen();
+    [Fact]
+    public void Kann_NICHT_sprechen_wenn_Abgehoben()
+    {
+        // Arrange
+        var telefon = new Telefon(TelefonZustand.Abgehoben);
 
-        }
+        // Act
 
-        [Fact()]
-        public void Kann_NICHT_sprechen_wenn_Abgehoben()
-        {
-            // Arrange
-            var telefon = new Telefon(TelefonZustand.Abgehoben);
-
-            // Act
-            
-            // Assert
-            Assert.Throws<InvalidOperationException>(telefon.Sprechen);
-        }
+        // Assert
+        Assert.Throws<InvalidOperationException>(telefon.Sprechen);
+    }
 
 
-        [Fact()]
-        public void Kann_NICHT_wählen_wenn_verbunden()
-        {
-            // Arrange
-            var telefon = new Telefon(TelefonZustand.Verbunden);
+    [Fact]
+    public void Kann_NICHT_wählen_wenn_verbunden()
+    {
+        // Arrange
+        var telefon = new Telefon(TelefonZustand.Verbunden);
 
-            // Act
+        // Act
 
-            // Assert
-            Assert.Throws<InvalidOperationException>(telefon.Wählen);
-        }
+        // Assert
+        Assert.Throws<InvalidOperationException>(telefon.Wählen);
+    }
 
-        [Fact()]
-        public void Kann_NICHT_abheben_wenn_verbunden()
-        {
-            // Arrange
-            var telefon = new Telefon(TelefonZustand.Verbunden);
+    [Fact]
+    public void Kann_NICHT_abheben_wenn_verbunden()
+    {
+        // Arrange
+        var telefon = new Telefon(TelefonZustand.Verbunden);
 
-            // Act
+        // Act
 
-            // Assert
-            Assert.Throws<InvalidOperationException>(telefon.Abheben);
-        }
+        // Assert
+        Assert.Throws<InvalidOperationException>(telefon.Abheben);
+    }
 
-        [Fact()]
-        public void Kann_NICHT_annehmenAnruf_wenn_Verbunden()
-        {
-            // Arrange
-            var telefon = new Telefon(TelefonZustand.Verbunden);
+    [Fact]
+    public void Kann_NICHT_annehmenAnruf_wenn_Verbunden()
+    {
+        // Arrange
+        var telefon = new Telefon(TelefonZustand.Verbunden);
 
-            // Act
+        // Act
 
-            // Assert
-            Assert.Throws<InvalidOperationException>(telefon.AnnehmenAnruf);
-        }
-
-
-        [Fact()]
-        public void Kann_NICHT_annehmenAnruf_wenn_Abgehoben()
-        {
-            // Arrange
-            var telefon = new Telefon(TelefonZustand.Abgehoben);
-
-            // Act
-
-            // Assert
-            Assert.Throws<InvalidOperationException>(telefon.AnnehmenAnruf);
-        }
-
-        [Fact()]
-        public void Kann_NICHT_wählen_wenn_Aufgelegt()
-        {
-            // Arrange
-            var telefon = new Telefon(TelefonZustand.Aufgelegt);
-
-            // Act
-
-            // Assert
-            Assert.Throws<InvalidOperationException>(telefon.Wählen);
-        }
-
-        [Fact()]
-        public void Kann_NICHT_sprechen_wenn_Aufgelegt()
-        {
-            // Arrange
-            var telefon = new Telefon(TelefonZustand.Aufgelegt);
-
-            // Act
-
-            // Assert
-            Assert.Throws<InvalidOperationException>(telefon.Sprechen);
-        }
-
-        [Fact()]
-        public void Kann_NICHT_auflegen_wenn_Aufgelegt()
-        {
-            // Arrange
-            var telefon = new Telefon(TelefonZustand.Aufgelegt);
-
-            // Act
-
-            // Assert
-            Assert.Throws<InvalidOperationException>(telefon.Auflegen);
-        }
+        // Assert
+        Assert.Throws<InvalidOperationException>(telefon.AnnehmenAnruf);
+    }
 
 
-        [Fact()]
-        public void Kann_NICHT_abheben_wenn_Abgehoben()
-        {
-            // Arrange
-            var telefon = new Telefon(TelefonZustand.Abgehoben);
+    [Fact]
+    public void Kann_NICHT_annehmenAnruf_wenn_Abgehoben()
+    {
+        // Arrange
+        var telefon = new Telefon(TelefonZustand.Abgehoben);
 
-            // Act
+        // Act
 
-            // Assert
-            Assert.Throws<InvalidOperationException>(telefon.Abheben);
-        }
+        // Assert
+        Assert.Throws<InvalidOperationException>(telefon.AnnehmenAnruf);
+    }
+
+    [Fact]
+    public void Kann_NICHT_wählen_wenn_Aufgelegt()
+    {
+        // Arrange
+        var telefon = new Telefon(TelefonZustand.Aufgelegt);
+
+        // Act
+
+        // Assert
+        Assert.Throws<InvalidOperationException>(telefon.Wählen);
+    }
+
+    [Fact]
+    public void Kann_NICHT_sprechen_wenn_Aufgelegt()
+    {
+        // Arrange
+        var telefon = new Telefon(TelefonZustand.Aufgelegt);
+
+        // Act
+
+        // Assert
+        Assert.Throws<InvalidOperationException>(telefon.Sprechen);
+    }
+
+    [Fact]
+    public void Kann_NICHT_auflegen_wenn_Aufgelegt()
+    {
+        // Arrange
+        var telefon = new Telefon(TelefonZustand.Aufgelegt);
+
+        // Act
+
+        // Assert
+        Assert.Throws<InvalidOperationException>(telefon.Auflegen);
+    }
 
 
+    [Fact]
+    public void Kann_NICHT_abheben_wenn_Abgehoben()
+    {
+        // Arrange
+        var telefon = new Telefon(TelefonZustand.Abgehoben);
+
+        // Act
+
+        // Assert
+        Assert.Throws<InvalidOperationException>(telefon.Abheben);
     }
 }
