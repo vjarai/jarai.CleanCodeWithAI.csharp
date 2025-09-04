@@ -87,11 +87,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "E Dependency Inversion Prin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversion", "DependencyInversion\DependencyInversion.csproj", "{46BF9C40-C8AA-FB1C-9FD3-2B6FA7FE061E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 KI Refactoring", "3 KI Refactoring", "{30576947-AE5F-46DD-9A24-DF5B61467B3D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 KI Refactoring", "4 KI Refactoring", "{30576947-AE5F-46DD-9A24-DF5B61467B3D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Patterns", "2 Patterns", "{71CF53C3-A0C8-4643-8339-8286BFCF1F4C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 KI Test Driven Design", "4 KI Test Driven Design", "{7E9783E0-790D-4955-9AE5-395C564CFD7D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 KI Test Driven Design", "5 KI Test Driven Design", "{7E9783E0-790D-4955-9AE5-395C564CFD7D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRoseKata.TestDriven", "GildedRoseKata.TestDriven\GildedRoseKata.TestDriven.csproj", "{DA16FEDE-5154-43A7-AC22-DDBE9D7958FD}"
 EndProject
@@ -123,6 +123,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dokumentation", "Dokumentation\Dokumentation.csproj", "{4A3551B9-8E29-4FC6-9E5E-DCB4981554F2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.Refactored.Tests", "04_Adapter\Adapter.Refactored.Tests1\Adapter.Refactored.Tests.csproj", "{2A77EFB7-BC80-4CA6-B982-EB078B26034A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Pair Programming", "3 Pair Programming", "{D1D4CD80-6338-4843-AE9A-A4F42BA98FFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IbanValidationService", "IbanValidationService\IbanValidationService.csproj", "{436D26A3-62B9-4E70-86BC-C070F588C6B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IbanValidationService.Tests", "IbanValidationService.Tests\IbanValidationService.Tests.csproj", "{6A105409-6137-4E1E-859A-F09895B873CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -258,6 +264,14 @@ Global
 		{2A77EFB7-BC80-4CA6-B982-EB078B26034A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A77EFB7-BC80-4CA6-B982-EB078B26034A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A77EFB7-BC80-4CA6-B982-EB078B26034A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{436D26A3-62B9-4E70-86BC-C070F588C6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436D26A3-62B9-4E70-86BC-C070F588C6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436D26A3-62B9-4E70-86BC-C070F588C6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436D26A3-62B9-4E70-86BC-C070F588C6B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A105409-6137-4E1E-859A-F09895B873CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A105409-6137-4E1E-859A-F09895B873CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A105409-6137-4E1E-859A-F09895B873CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A105409-6137-4E1E-859A-F09895B873CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -315,6 +329,8 @@ Global
 		{4F14F2C9-B618-49F3-83C4-F03C48961468} = {7E9783E0-790D-4955-9AE5-395C564CFD7D}
 		{4A3551B9-8E29-4FC6-9E5E-DCB4981554F2} = {9A464240-01B4-4B50-B56F-4523025820F2}
 		{2A77EFB7-BC80-4CA6-B982-EB078B26034A} = {1157BEE0-2377-4117-AC4C-33E4076A65F0}
+		{436D26A3-62B9-4E70-86BC-C070F588C6B9} = {D1D4CD80-6338-4843-AE9A-A4F42BA98FFF}
+		{6A105409-6137-4E1E-859A-F09895B873CF} = {D1D4CD80-6338-4843-AE9A-A4F42BA98FFF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53ECCFEC-A574-48C6-8787-56F483DC5AD0}
