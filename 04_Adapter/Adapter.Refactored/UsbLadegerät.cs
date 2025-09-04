@@ -2,7 +2,7 @@
 {
     public class UsbLadegerät
     {
-        public int LiefereStromViaUsb()
+        public virtual int LiefereStromViaUsb()
         {
             int strom = 500;
 

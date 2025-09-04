@@ -91,7 +91,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 KI Refactoring", "3 KI Re
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Patterns", "2 Patterns", "{71CF53C3-A0C8-4643-8339-8286BFCF1F4C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 KI Testing", "4 KI Testing", "{7E9783E0-790D-4955-9AE5-395C564CFD7D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 KI Test Driven Design", "4 KI Test Driven Design", "{7E9783E0-790D-4955-9AE5-395C564CFD7D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRoseKata.TestDriven", "GildedRoseKata.TestDriven\GildedRoseKata.TestDriven.csproj", "{DA16FEDE-5154-43A7-AC22-DDBE9D7958FD}"
 EndProject
@@ -122,7 +122,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "B MarsRover", "B MarsRover"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dokumentation", "Dokumentation\Dokumentation.csproj", "{4A3551B9-8E29-4FC6-9E5E-DCB4981554F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.Refactored.Tests1", "04_Adapter\Adapter.Refactored.Tests1\Adapter.Refactored.Tests1.csproj", "{2A77EFB7-BC80-4CA6-B982-EB078B26034A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.Refactored.Tests", "04_Adapter\Adapter.Refactored.Tests1\Adapter.Refactored.Tests.csproj", "{2A77EFB7-BC80-4CA6-B982-EB078B26034A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

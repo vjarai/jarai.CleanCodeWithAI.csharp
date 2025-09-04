@@ -1,19 +1,24 @@
-﻿using Xunit;
-using Adapter.Refactored;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Moq;
+using Xunit;
 
-namespace Adapter.Refactored.Tests
+namespace Adapter.Refactored.Tests;
+
+public class ApplePhoneTests
 {
-    public class UsbLadegerätTests
+    [Fact]
+    public void Aufladen_WithUsbToLightningAdapter_CallsLiefereStromViaUsb()
     {
-        [Fact()]
-        public void LiefereStromViaUsbTest()
-        {
-            Xunit.Assert.Fail("This test needs an implementation");
-        }
+        // Arrange
+        var usbLadegerätMock = new Mock<UsbLadegerät>();
+        usbLadegerätMock.Setup(x => x.LiefereStromViaUsb()).Returns(500);
+
+        var adapter = new UsbToLightningAdapter(usbLadegerätMock.Object);
+        var applePhone = new ApplePhone();
+
+        // Act
+        applePhone.Aufladen(adapter);
+
+        // Assert
+        usbLadegerätMock.Verify(x => x.LiefereStromViaUsb(), Times.Once);
     }
 }
