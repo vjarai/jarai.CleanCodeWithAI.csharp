@@ -10,8 +10,8 @@ generate inline comments for all complex code blocks and algorithms
 ### Generate Markdown Documentation
 generate markdown documentation for all classes, public methods, fields and properties
 
-### Generate UML Diagrams in plantuml Format.
+### Generate UML Class Diagram in Plantuml Format.
 generate UML diagrams in plantuml format for all classes and their relationships
 
-# Create ER Diagramm using Plantuml 
+### Create ER Database Diagram in Plantuml Format
 Create er diagramm for the shopping database using plantuml

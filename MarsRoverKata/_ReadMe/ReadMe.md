@@ -57,3 +57,7 @@ class MarsRover {
 
 - The rover receives a char array of commands e.g. RMMLM and returns the finishing point after the moves e.g. 2:1:N
 - The rover wraps around if it reaches the end of the grid.
+
+
+# => Use the Outside-In TDD approach!
+![](AcceptanceTestLoops.jpg)

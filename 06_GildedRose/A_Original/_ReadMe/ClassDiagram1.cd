@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="GildedRoseKata.Original.GildedRose">
-    <Position X="1.75" Y="1.25" Width="1.5" />
+    <Position X="1.75" Y="1.25" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
       <FileName>GildedRose.cs</FileName>
@@ -11,7 +11,7 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="GildedRoseKata.Original.Item">
-    <Position X="4.5" Y="1.25" Width="1.5" />
+    <Position X="6" Y="1.25" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAABAAAAAAAQAAAAAAAAAAAAAAIAAAAA=</HashCode>
       <FileName>Item.cs</FileName>
