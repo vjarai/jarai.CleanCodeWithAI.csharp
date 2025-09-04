@@ -6,14 +6,6 @@
       <HashCode>AQAEAQAABhAAAAAAEAAEQAAAIQAAAIQAAAIAAAAAAIA=</HashCode>
       <FileName>Kniffel.cs</FileName>
     </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Field Name="dice" />
-    </ShowAsCollectionAssociation>
   </Class>
-  <Struct Name="System.Int32" Collapsed="true">
-    <Position X="6.25" Y="1.5" Width="1.5" />
-    <TypeIdentifier />
-    <Lollipop Position="0.2" />
-  </Struct>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
