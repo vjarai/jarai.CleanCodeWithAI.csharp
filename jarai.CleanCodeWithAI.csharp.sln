@@ -132,6 +132,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charger.Final.Tests", "Char
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityVulnerabilities", "SecurityVulnerabilities\SecurityVulnerabilities.csproj", "{51E10DCB-651C-826E-1014-91C4AEAC66D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryCustomInstructions", "RepositoryCustomInstructions\RepositoryCustomInstructions.csproj", "{C968C7C7-1556-426F-A713-04D77BDB24EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromptFiles", "PromptFiles\PromptFiles.csproj", "{1CD80571-D573-4185-9F6D-71B2C1FB6C6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -278,6 +282,14 @@ Global
 		{51E10DCB-651C-826E-1014-91C4AEAC66D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51E10DCB-651C-826E-1014-91C4AEAC66D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51E10DCB-651C-826E-1014-91C4AEAC66D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C968C7C7-1556-426F-A713-04D77BDB24EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C968C7C7-1556-426F-A713-04D77BDB24EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C968C7C7-1556-426F-A713-04D77BDB24EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C968C7C7-1556-426F-A713-04D77BDB24EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CD80571-D573-4185-9F6D-71B2C1FB6C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD80571-D573-4185-9F6D-71B2C1FB6C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD80571-D573-4185-9F6D-71B2C1FB6C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD80571-D573-4185-9F6D-71B2C1FB6C6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -338,6 +350,8 @@ Global
 		{52252224-A213-C13B-C86D-9684E8D724CB} = {1157BEE0-2377-4117-AC4C-33E4076A65F0}
 		{F399D526-0817-4E33-E35C-8102E6DA64B8} = {1157BEE0-2377-4117-AC4C-33E4076A65F0}
 		{51E10DCB-651C-826E-1014-91C4AEAC66D2} = {DC4BB891-DC3D-4CFF-87A8-2F784A777083}
+		{C968C7C7-1556-426F-A713-04D77BDB24EE} = {DC4BB891-DC3D-4CFF-87A8-2F784A777083}
+		{1CD80571-D573-4185-9F6D-71B2C1FB6C6D} = {DC4BB891-DC3D-4CFF-87A8-2F784A777083}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53ECCFEC-A574-48C6-8787-56F483DC5AD0}
