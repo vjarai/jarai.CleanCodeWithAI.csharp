@@ -130,6 +130,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charger.Final", "Charger.Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charger.Final.Tests", "Charger.Final.Tests\Charger.Final.Tests.csproj", "{F399D526-0817-4E33-E35C-8102E6DA64B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityFixes", "SecurityFixes\SecurityFixes.csproj", "{A23E6B58-D12C-4EB3-AF87-7609491AD66E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -272,6 +274,10 @@ Global
 		{F399D526-0817-4E33-E35C-8102E6DA64B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F399D526-0817-4E33-E35C-8102E6DA64B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F399D526-0817-4E33-E35C-8102E6DA64B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A23E6B58-D12C-4EB3-AF87-7609491AD66E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A23E6B58-D12C-4EB3-AF87-7609491AD66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A23E6B58-D12C-4EB3-AF87-7609491AD66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A23E6B58-D12C-4EB3-AF87-7609491AD66E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -331,6 +337,7 @@ Global
 		{9F8C514F-2455-07D2-4261-1F653EB7514E} = {9610A72D-5B71-4279-8925-C852EBAA3200}
 		{52252224-A213-C13B-C86D-9684E8D724CB} = {1157BEE0-2377-4117-AC4C-33E4076A65F0}
 		{F399D526-0817-4E33-E35C-8102E6DA64B8} = {1157BEE0-2377-4117-AC4C-33E4076A65F0}
+		{A23E6B58-D12C-4EB3-AF87-7609491AD66E} = {DC4BB891-DC3D-4CFF-87A8-2F784A777083}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53ECCFEC-A574-48C6-8787-56F483DC5AD0}
