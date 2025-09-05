@@ -2,6 +2,9 @@
 
 namespace SecurityFixes;
 
+/// <summary>
+/// Safe version: input is bound to parameters (@username, @password), so the database treats them as data, not executable code.
+/// </summary>
 internal class SecureSqlQuery
 {
     public static void Execute()
@@ -14,7 +17,6 @@ internal class SecureSqlQuery
 
         var connectionString = "Server=.;Database=TestDB;Trusted_Connection=True;";
 
-        // Safe version: input is bound to parameters (@username, @password), so the database treats them as data, not executable code.
         var query = "SELECT * FROM Users WHERE Username = @username AND Password = @password";
 
         using (var conn = new SqlConnection(connectionString))

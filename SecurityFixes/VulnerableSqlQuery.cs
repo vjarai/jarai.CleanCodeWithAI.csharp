@@ -2,6 +2,16 @@
 
 namespace SecurityFixes;
 
+/// <summary>
+/// ❌ Vulnerable code: concatenates user input directly into SQL
+/// 
+/// If an attacker enters:
+/// Username: alice' OR '1'='1
+/// Password: anything
+/// 
+/// The query becomes:
+/// SELECT * FROM Users WHERE Username = 'alice' OR '1'='1' AND Password = 'anything'
+/// </summary>
 internal class VulnerableSqlQuery
 {
     public static void Execute()
@@ -11,15 +21,10 @@ internal class VulnerableSqlQuery
 
         Console.WriteLine("Enter password:");
         var password = Console.ReadLine()!;
-
-        // ❌ Vulnerable code: concatenates user input directly into SQL
-        // If an attacker enters:
-        // Username: alice' OR '1'='1
-        // Password: anything
-        // The query becomes:
-        // SELECT * FROM Users WHERE Username = 'alice' OR '1'='1' AND Password = 'anything'
-
+        
         var connectionString = "Server=.;Database=TestDB;Trusted_Connection=True;";
+
+        // SQL Injection: Aus eingegebenem Text wird SQL Code!
         var query = "SELECT * FROM Users WHERE Username = '" + username + "' AND Password = '" + password + "'";
 
         using (var conn = new SqlConnection(connectionString))
