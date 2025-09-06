@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="..\..\..\..\..\.mcp.json" Link="MCP Servers %28global%29\.mcp.json" />
+    <Content Include="..\.mcp.json" Link="MCP Servers %28Solution%29\.mcp.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MCP Servers %28global%29\" />
+  </ItemGroup>
+
 </Project>
