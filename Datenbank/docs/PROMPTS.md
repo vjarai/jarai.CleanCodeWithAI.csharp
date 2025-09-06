@@ -2,7 +2,7 @@
 You are a MS SQL Server database developer.
 
 # Create Database
-create a database named Shopping on the local sql server with tables for customers, produchts and a many to many relation between them. 
+create a database named Shopping on the local sql server with tables for customers, products and a many to many relation between them. 
 
 # Insert Test Data
 insert at least 10 test records in all tables
