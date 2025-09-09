@@ -146,6 +146,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceTuning", "Perfor
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8 KI Performance Tuning", "8 KI Performance Tuning", "{BCE4C217-C826-4183-BF6E-562E9B852087}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async1.Breakfast", "Async1.Breakfast\Async1.Breakfast.csproj", "{68FDD05E-DE00-982E-D148-2553E2E2139E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -312,6 +314,10 @@ Global
 		{2C306E54-CAD3-4A55-9ECF-9898F4EE7993}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C306E54-CAD3-4A55-9ECF-9898F4EE7993}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C306E54-CAD3-4A55-9ECF-9898F4EE7993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68FDD05E-DE00-982E-D148-2553E2E2139E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68FDD05E-DE00-982E-D148-2553E2E2139E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68FDD05E-DE00-982E-D148-2553E2E2139E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68FDD05E-DE00-982E-D148-2553E2E2139E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -378,6 +384,7 @@ Global
 		{2D732B7B-F60E-4AC9-9E82-84B9F6C3262F} = {71CF53C3-A0C8-4643-8339-8286BFCF1F4C}
 		{5528E3BB-8B31-41A7-A579-968BE95E63EC} = {2D732B7B-F60E-4AC9-9E82-84B9F6C3262F}
 		{2C306E54-CAD3-4A55-9ECF-9898F4EE7993} = {BCE4C217-C826-4183-BF6E-562E9B852087}
+		{68FDD05E-DE00-982E-D148-2553E2E2139E} = {BCE4C217-C826-4183-BF6E-562E9B852087}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53ECCFEC-A574-48C6-8787-56F483DC5AD0}

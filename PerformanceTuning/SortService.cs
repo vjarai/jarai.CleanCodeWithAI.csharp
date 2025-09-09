@@ -1,3 +1,5 @@
+using System.Threading.Tasks;
+
 namespace PerformanceTuning
 {
     public static class SortService
@@ -28,6 +30,14 @@ namespace PerformanceTuning
             return arr;
         }
 
+        // ParallelSort: parallelized quicksort for large arrays
+        public static int[] ParallelSort(int[] data)
+        {
+            int[] arr = (int[])data.Clone();
+            ParallelQuickSort(arr, 0, arr.Length - 1);
+            return arr;
+        }
+
         private static void QuickSortInternal(int[] arr, int low, int high)
         {
             if (low < high)
@@ -35,6 +45,26 @@ namespace PerformanceTuning
                 int pi = Partition(arr, low, high);
                 QuickSortInternal(arr, low, pi - 1);
                 QuickSortInternal(arr, pi + 1, high);
+            }
+        }
+
+        private static void ParallelQuickSort(int[] arr, int low, int high, int threshold = 10000)
+        {
+            if (low < high)
+            {
+                int pi = Partition(arr, low, high);
+                if (high - low > threshold)
+                {
+                    Parallel.Invoke(
+                        () => ParallelQuickSort(arr, low, pi - 1, threshold),
+                        () => ParallelQuickSort(arr, pi + 1, high, threshold)
+                    );
+                }
+                else
+                {
+                    QuickSortInternal(arr, low, pi - 1);
+                    QuickSortInternal(arr, pi + 1, high);
+                }
             }
         }
 

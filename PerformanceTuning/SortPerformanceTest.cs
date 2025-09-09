@@ -36,6 +36,13 @@ namespace PerformanceTuning
             SortService.QuickSort(quickData);
             quickWatch.Stop();
             Console.WriteLine($"QuickSort: {quickWatch.ElapsedMilliseconds} ms");
+
+            // ParallelSort
+            var parallelData = (int[])data.Clone();
+            var parallelWatch = Stopwatch.StartNew();
+            SortService.ParallelSort(parallelData);
+            parallelWatch.Stop();
+            Console.WriteLine($"ParallelSort: {parallelWatch.ElapsedMilliseconds} ms");
         }
     }
 }
