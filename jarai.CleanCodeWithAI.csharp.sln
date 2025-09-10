@@ -148,6 +148,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8 KI Performance Tuning", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async1.Breakfast", "Async1.Breakfast\Async1.Breakfast.csproj", "{68FDD05E-DE00-982E-D148-2553E2E2139E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsroverKata.Final", "MarsroverKata.Final\MarsroverKata.Final\MarsroverKata.Final.csproj", "{A203678D-AF77-0DAA-BC79-31270A9AAAB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsroverKata.Final.Tests", "MarsroverKata.Final.Tests\MarsroverKata.Final.Tests.csproj", "{3CE2B3BA-FDFA-E3FA-0199-823FC5126390}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -318,6 +322,14 @@ Global
 		{68FDD05E-DE00-982E-D148-2553E2E2139E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68FDD05E-DE00-982E-D148-2553E2E2139E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68FDD05E-DE00-982E-D148-2553E2E2139E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A203678D-AF77-0DAA-BC79-31270A9AAAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A203678D-AF77-0DAA-BC79-31270A9AAAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A203678D-AF77-0DAA-BC79-31270A9AAAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A203678D-AF77-0DAA-BC79-31270A9AAAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CE2B3BA-FDFA-E3FA-0199-823FC5126390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE2B3BA-FDFA-E3FA-0199-823FC5126390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE2B3BA-FDFA-E3FA-0199-823FC5126390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE2B3BA-FDFA-E3FA-0199-823FC5126390}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -385,6 +397,8 @@ Global
 		{5528E3BB-8B31-41A7-A579-968BE95E63EC} = {2D732B7B-F60E-4AC9-9E82-84B9F6C3262F}
 		{2C306E54-CAD3-4A55-9ECF-9898F4EE7993} = {BCE4C217-C826-4183-BF6E-562E9B852087}
 		{68FDD05E-DE00-982E-D148-2553E2E2139E} = {BCE4C217-C826-4183-BF6E-562E9B852087}
+		{A203678D-AF77-0DAA-BC79-31270A9AAAB8} = {4F14F2C9-B618-49F3-83C4-F03C48961468}
+		{3CE2B3BA-FDFA-E3FA-0199-823FC5126390} = {4F14F2C9-B618-49F3-83C4-F03C48961468}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53ECCFEC-A574-48C6-8787-56F483DC5AD0}
