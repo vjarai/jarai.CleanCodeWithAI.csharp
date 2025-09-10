@@ -1,4 +1,4 @@
-﻿namespace CodingDojo3
+﻿namespace MarsroverKata.Final
 {
     internal class Program
     {

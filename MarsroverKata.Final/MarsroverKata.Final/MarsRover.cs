@@ -1,6 +1,4 @@
-using System;
-
-namespace CodingDojo3
+namespace MarsroverKata.Final
 {
     public class MarsRover
     {

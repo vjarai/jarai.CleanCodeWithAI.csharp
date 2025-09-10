@@ -1,6 +1,4 @@
-using Xunit;
-
-namespace CodingDojo3.Tests
+namespace MarsroverKata.Final.Tests
 {
     public class MarsRoverTests
     {

@@ -23,11 +23,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Using Include="Xunit" />
+    <ProjectReference Include="..\MarsroverKata.Final\MarsroverKata.Final\MarsroverKata.Final.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CodingDojo3\CodingDojo3.csproj" />
+    <Using Include="Xunit" />
   </ItemGroup>
 
 </Project>

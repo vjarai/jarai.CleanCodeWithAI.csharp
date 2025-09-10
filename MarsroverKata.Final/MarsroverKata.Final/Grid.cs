@@ -1,6 +1,4 @@
-using System.Collections.Generic;
-
-namespace CodingDojo3
+namespace MarsroverKata.Final
 {
     public class Grid
     {
