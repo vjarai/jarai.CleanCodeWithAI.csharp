@@ -104,9 +104,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRoverKata.Tests", "Mars
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelContextProtocol", "ModelContextProtocol\ModelContextProtocol.csproj", "{57B7A3FE-E5BA-4C5A-8AC3-5A319C62D986}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 KI Dokumentation", "6 KI Dokumentation", "{9A464240-01B4-4B50-B56F-4523025820F2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 KI Dokumentation", "9 KI Dokumentation", "{9A464240-01B4-4B50-B56F-4523025820F2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 KI Datenbanken", "7 KI Datenbanken", "{09A71DD4-1395-440C-A3AD-8C0427E3D552}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 KI Datenbanken", "6 KI Datenbanken", "{09A71DD4-1395-440C-A3AD-8C0427E3D552}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datenbank", "Datenbank\Datenbank.csproj", "{F75AEEBA-4B0B-48A1-8375-8286FC5D83D4}"
 EndProject
@@ -151,6 +151,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsroverKata.Final", "MarsroverKata.Final\MarsroverKata.Final\MarsroverKata.Final.csproj", "{A203678D-AF77-0DAA-BC79-31270A9AAAB8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsroverKata.Final.Tests", "MarsroverKata.Final.Tests\MarsroverKata.Final.Tests.csproj", "{3CE2B3BA-FDFA-E3FA-0199-823FC5126390}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 KI User Interface", "7 KI User Interface", "{723DD0BD-4EE5-4AD3-9DFB-D59FD7D1949C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
