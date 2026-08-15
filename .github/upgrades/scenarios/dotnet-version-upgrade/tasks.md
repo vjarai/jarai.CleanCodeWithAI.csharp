@@ -1,6 +1,6 @@
 # Migration Progress
 
-**Progress**: 9/14 tasks complete <progress value="64" max="100"></progress> 64%
+**Progress**: 10/14 tasks complete <progress value="71" max="100"></progress> 71%
 **Status**: In Progress - Task 04-application-group-integration
 
 ## Tasks
@@ -16,7 +16,7 @@
    - ✅ 03.06-marsrover-routenplaner: MarsRover- und Routenplaner-Projekte inkl. Tests auf net10.0 upgraden ([Content](tasks/03.06-marsrover-routenplaner/task.md), [Progress](tasks/03.06-marsrover-routenplaner/progress-details.md))
 - 🔄 04-application-group-integration: Integrations- und Spezialprojekte auf net10.0 heben ([Content](tasks/04-application-group-integration/task.md))
    - ✅ 04.01-datenbank-modelcontext: Datenbank und ModelContextProtocol auf net10.0 upgraden ([Content](tasks/04.01-datenbank-modelcontext/task.md), [Progress](tasks/04.01-datenbank-modelcontext/progress-details.md))
-   - 🔲 04.02-ibanvalidation: IbanValidation inkl. Tests und API-Anpassungen auf net10.0
+   - ✅ 04.02-ibanvalidation: IbanValidation inkl. Tests und API-Anpassungen auf net10.0 ([Content](tasks/04.02-ibanvalidation/task.md), [Progress](tasks/04.02-ibanvalidation/progress-details.md))
    - 🔲 04.03-openapiautomation: OpenApiAutomation auf net10.0 inkl. Verhalten-Änderungen (Api.0003)
    - 🔲 04.04-marsrover-final: MarsroverKata.Final inkl. Tests von net8.0 auf net10.0
 - 🔲 05-library-consolidation-and-cleanup: Konsolidierung und projektweite Bereinigung abschließen ([Content](tasks/05-library-consolidation-and-cleanup/task.md))

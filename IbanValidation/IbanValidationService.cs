@@ -1,5 +1,3 @@
-using System.Numerics;
-
 namespace IbanValidation
 {
     public class IbanValidationService
@@ -21,18 +19,19 @@ namespace IbanValidation
             // Move the four initial characters to the end of the string
             string rearranged = iban.Substring(4) + iban.Substring(0, 4);
 
-            // Replace each letter in the string with two digits
-            string numericIban = "";
+            // Calculate mod-97 incrementally to avoid very large integer parsing.
+            int remainder = 0;
+
             foreach (char c in rearranged)
             {
                 if (char.IsLetter(c))
                 {
                     int value = c - 'A' + 10;
-                    numericIban += value.ToString();
+                    remainder = AppendNumberAndMod97(remainder, value);
                 }
                 else if (char.IsDigit(c))
                 {
-                    numericIban += c;
+                    remainder = (remainder * 10 + (c - '0')) % 97;
                 }
                 else
                 {
@@ -40,12 +39,19 @@ namespace IbanValidation
                 }
             }
 
-            // Perform mod-97 operation
-            BigInteger ibanInt;
-            if (!BigInteger.TryParse(numericIban, out ibanInt))
-                return false;
+            return remainder == 1;
+        }
 
-            return ibanInt % 97 == 1;
+        private static int AppendNumberAndMod97(int currentRemainder, int value)
+        {
+            if (value >= 10)
+            {
+                currentRemainder = (currentRemainder * 10 + (value / 10)) % 97;
+                currentRemainder = (currentRemainder * 10 + (value % 10)) % 97;
+                return currentRemainder;
+            }
+
+            return (currentRemainder * 10 + value) % 97;
         }
     }
 }
