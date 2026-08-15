@@ -9,6 +9,7 @@ namespace OpenApiAutomation
     {
         // Choose a model you have access to. gpt-4o-mini is fast/cost-effective.
         private const string Model = "gpt-4o-mini";
+        private static readonly Uri ApiBaseUri = new("https://api.openai.com/", UriKind.Absolute);
 
         static async Task<int> Main(string[] args)
         {
@@ -23,7 +24,7 @@ namespace OpenApiAutomation
             Console.WriteLine("ChatGPT console. Type your message and press Enter. Empty line to exit.");
             using var http = new HttpClient
             {
-                BaseAddress = new Uri("https://api.openai.com/")
+                BaseAddress = ApiBaseUri
             };
             http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
             http.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
