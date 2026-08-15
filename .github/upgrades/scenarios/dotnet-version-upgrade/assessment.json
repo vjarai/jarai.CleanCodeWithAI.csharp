@@ -1,0 +1,3190 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "net10.0",
+    "targetDisplayName": ".NETCoreApp,Version=v10.0"
+  },
+  "analysisStartTime": "2026-08-15T18:53:50.3937424Z",
+  "analysisEndTime": "2026-08-15T18:53:52.2951081Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 43,
+      "issues": 6,
+      "incidents": 82,
+      "effort": 82
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 49,
+        "Optional": 25,
+        "Potential": 8,
+        "Information": 0
+      },
+      "category": {
+        "Project": 43,
+        "NuGet": 34,
+        "Api": 5
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "Async1.Breakfast\\Async1.Breakfast.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "Async1.Breakfast",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 6,
+        "numberOfCodeFiles": 6,
+        "linesTotal": 213,
+        "linesOfCode": 213,
+        "totalApiScanned": 218,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "767987b2-5bfd-4f32-8219-08944e9902de",
+          "ruleId": "Project.0002",
+          "projectPath": "Async1.Breakfast\\Async1.Breakfast.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "Async1.Breakfast\\Async1.Breakfast.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "Charger.Final\\Charger.Final.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "Charger.Final",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 5,
+        "numberOfCodeFiles": 5,
+        "linesTotal": 76,
+        "linesOfCode": 76,
+        "totalApiScanned": 25,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "e97dcfdd-bd75-4931-9ace-80f8ba15eacd",
+          "ruleId": "Project.0002",
+          "projectPath": "Charger.Final\\Charger.Final.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "Charger.Final\\Charger.Final.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "Charger.Final.Tests\\Charger.Final.Tests.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "Charger.Final.Tests",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 1820,
+        "linesOfCode": 25,
+        "totalApiScanned": 19,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "67b5cab0-64ed-4782-bbfd-c0b41c27ffd6",
+          "ruleId": "NuGet.0005",
+          "projectPath": "Charger.Final.Tests\\Charger.Final.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+              "protected": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3"
+            },
+            "kind": "File",
+            "path": "Charger.Final.Tests\\Charger.Final.Tests.csproj",
+            "snippet": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+            "protectedSnippet": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+            "label": "MSTest 3.6.4",
+            "properties": {
+              "PackageId": "MSTest",
+              "PackageVersion": "3.6.4",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "99130394-05af-4225-8612-2e43b9043f44",
+          "ruleId": "NuGet.0005",
+          "projectPath": "Charger.Final.Tests\\Charger.Final.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+              "protected": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3"
+            },
+            "kind": "File",
+            "path": "Charger.Final.Tests\\Charger.Final.Tests.csproj",
+            "snippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "protectedSnippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "label": "xunit 2.9.3",
+            "properties": {
+              "PackageId": "xunit",
+              "PackageVersion": "2.9.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "b845a838-09fc-46cc-9072-e190ffb98b0a",
+          "ruleId": "Project.0002",
+          "projectPath": "Charger.Final.Tests\\Charger.Final.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "Charger.Final.Tests\\Charger.Final.Tests.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "Charger.Original\\Charger.Original.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "Charger.Original",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 4,
+        "numberOfCodeFiles": 4,
+        "linesTotal": 54,
+        "linesOfCode": 54,
+        "totalApiScanned": 18,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "a72229ef-c790-4821-ab84-3b8d13bd980d",
+          "ruleId": "Project.0002",
+          "projectPath": "Charger.Original\\Charger.Original.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "Charger.Original\\Charger.Original.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "Datenbank\\Datenbank.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "Datenbank",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 3,
+        "linesTotal": 69,
+        "linesOfCode": 69,
+        "totalApiScanned": 30,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "c62a2b60-eef1-4331-9824-f4fd506eedd7",
+          "ruleId": "NuGet.0002",
+          "projectPath": "Datenbank\\Datenbank.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore, 9.0.8\n\nEmpfehlung:\n\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore 10.0.11",
+              "protected": "Microsoft.EntityFrameworkCore, 9.0.8\n\nEmpfehlung:\n\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore 10.0.11"
+            },
+            "kind": "File",
+            "path": "Datenbank\\Datenbank.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore, 9.0.8\n\nEmpfehlung:\n\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore 10.0.11",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore, 9.0.8\n\nEmpfehlung:\n\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore 10.0.11",
+            "label": "Microsoft.EntityFrameworkCore 9.0.8",
+            "properties": {
+              "PackageId": "Microsoft.EntityFrameworkCore",
+              "PackageVersion": "9.0.8",
+              "PackageNewVersion": "10.0.11",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "24ac40c9-79dd-43c6-8cde-9be7c9cf2fd9",
+          "ruleId": "NuGet.0002",
+          "projectPath": "Datenbank\\Datenbank.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore.SqlServer, 9.0.8\n\nEmpfehlung:\n\nRemove Microsoft.EntityFrameworkCore.SqlServer, and replace with new package Microsoft.EntityFrameworkCore.SqlServer 10.0.11",
+              "protected": "Microsoft.EntityFrameworkCore.SqlServer, 9.0.8\n\nEmpfehlung:\n\nRemove Microsoft.EntityFrameworkCore.SqlServer, and replace with new package Microsoft.EntityFrameworkCore.SqlServer 10.0.11"
+            },
+            "kind": "File",
+            "path": "Datenbank\\Datenbank.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore.SqlServer, 9.0.8\n\nEmpfehlung:\n\nRemove Microsoft.EntityFrameworkCore.SqlServer, and replace with new package Microsoft.EntityFrameworkCore.SqlServer 10.0.11",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore.SqlServer, 9.0.8\n\nEmpfehlung:\n\nRemove Microsoft.EntityFrameworkCore.SqlServer, and replace with new package Microsoft.EntityFrameworkCore.SqlServer 10.0.11",
+            "label": "Microsoft.EntityFrameworkCore.SqlServer 9.0.8",
+            "properties": {
+              "PackageId": "Microsoft.EntityFrameworkCore.SqlServer",
+              "PackageVersion": "9.0.8",
+              "PackageNewVersion": "10.0.11",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "bf8e2dc8-282f-47cb-b313-6d96452c1749",
+          "ruleId": "Project.0002",
+          "projectPath": "Datenbank\\Datenbank.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "Datenbank\\Datenbank.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "DependencyInversion\\DependencyInversion.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "DependencyInversion",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 4,
+        "numberOfCodeFiles": 4,
+        "linesTotal": 51,
+        "linesOfCode": 51,
+        "totalApiScanned": 18,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "681ae65c-7ec6-4df2-b0cc-7ad6d2de3dde",
+          "ruleId": "Project.0002",
+          "projectPath": "DependencyInversion\\DependencyInversion.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "DependencyInversion\\DependencyInversion.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "Dokumentation\\Dokumentation.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "Dokumentation",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 1,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 17,
+        "linesOfCode": 17,
+        "totalApiScanned": 4,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "945a5b6b-98f5-4459-b7e8-b9f0e2465e07",
+          "ruleId": "Project.0002",
+          "projectPath": "Dokumentation\\Dokumentation.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "Dokumentation\\Dokumentation.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "06_GildedRose\\A_Original\\GildedRoseKata.Original.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "GildedRoseKata.Original",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 3,
+        "linesTotal": 154,
+        "linesOfCode": 154,
+        "totalApiScanned": 201,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "df00fc07-30a1-4773-923e-a3fbccded919",
+          "ruleId": "Project.0002",
+          "projectPath": "06_GildedRose\\A_Original\\GildedRoseKata.Original.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "06_GildedRose\\A_Original\\GildedRoseKata.Original.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "06_GildedRose\\A_Original.Tests\\GildedRoseKata.Original.Tests.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "GildedRoseKata.Original.Tests",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 1908,
+        "linesOfCode": 113,
+        "totalApiScanned": 169,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "05b0c381-7d90-4679-b491-877dea473abb",
+          "ruleId": "NuGet.0005",
+          "projectPath": "06_GildedRose\\A_Original.Tests\\GildedRoseKata.Original.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Verify.Xunit, 30.10.0\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove Verify.Xunit, and replace with new package Verify.Xunit, 31.12.5",
+              "protected": "Verify.Xunit, 30.10.0\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove Verify.Xunit, and replace with new package Verify.Xunit, 31.12.5"
+            },
+            "kind": "File",
+            "path": "06_GildedRose\\A_Original.Tests\\GildedRoseKata.Original.Tests.csproj",
+            "snippet": "Verify.Xunit, 30.10.0\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove Verify.Xunit, and replace with new package Verify.Xunit, 31.12.5",
+            "protectedSnippet": "Verify.Xunit, 30.10.0\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove Verify.Xunit, and replace with new package Verify.Xunit, 31.12.5",
+            "label": "Verify.Xunit 30.10.0",
+            "properties": {
+              "PackageId": "Verify.Xunit",
+              "PackageVersion": "30.10.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "ad37c90b-f9f3-41d9-8b41-b28d118b2f87",
+          "ruleId": "NuGet.0005",
+          "projectPath": "06_GildedRose\\A_Original.Tests\\GildedRoseKata.Original.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+              "protected": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3"
+            },
+            "kind": "File",
+            "path": "06_GildedRose\\A_Original.Tests\\GildedRoseKata.Original.Tests.csproj",
+            "snippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "protectedSnippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "label": "xunit 2.9.3",
+            "properties": {
+              "PackageId": "xunit",
+              "PackageVersion": "2.9.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "0c1a1ae6-9851-4acd-8d46-3fa84ba250d8",
+          "ruleId": "Project.0002",
+          "projectPath": "06_GildedRose\\A_Original.Tests\\GildedRoseKata.Original.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "06_GildedRose\\A_Original.Tests\\GildedRoseKata.Original.Tests.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "GildedRoseKata.TestDriven\\GildedRoseKata.TestDriven.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "GildedRoseKata.TestDriven",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 1,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 10,
+        "linesOfCode": 10,
+        "totalApiScanned": 4,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "e4feca40-40f4-4ea7-9731-d17224bd2bec",
+          "ruleId": "Project.0002",
+          "projectPath": "GildedRoseKata.TestDriven\\GildedRoseKata.TestDriven.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "GildedRoseKata.TestDriven\\GildedRoseKata.TestDriven.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "GildedRoseKata.TestDriven.Tests\\GildedRoseKata.TestDriven.Tests.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "GildedRoseKata.TestDriven.Tests",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 1938,
+        "linesOfCode": 155,
+        "totalApiScanned": 1,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "2be3cc02-9f75-4cd0-af3e-0914bd94423a",
+          "ruleId": "NuGet.0005",
+          "projectPath": "GildedRoseKata.TestDriven.Tests\\GildedRoseKata.TestDriven.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+              "protected": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3"
+            },
+            "kind": "File",
+            "path": "GildedRoseKata.TestDriven.Tests\\GildedRoseKata.TestDriven.Tests.csproj",
+            "snippet": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+            "protectedSnippet": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+            "label": "MSTest 3.6.4",
+            "properties": {
+              "PackageId": "MSTest",
+              "PackageVersion": "3.6.4",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "59d32658-3584-4cee-8433-2170683e0554",
+          "ruleId": "NuGet.0005",
+          "projectPath": "GildedRoseKata.TestDriven.Tests\\GildedRoseKata.TestDriven.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+              "protected": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3"
+            },
+            "kind": "File",
+            "path": "GildedRoseKata.TestDriven.Tests\\GildedRoseKata.TestDriven.Tests.csproj",
+            "snippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "protectedSnippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "label": "xunit 2.9.3",
+            "properties": {
+              "PackageId": "xunit",
+              "PackageVersion": "2.9.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "39cd76bf-499a-4f39-8ae0-a2cc90cbe9e0",
+          "ruleId": "Project.0002",
+          "projectPath": "GildedRoseKata.TestDriven.Tests\\GildedRoseKata.TestDriven.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "GildedRoseKata.TestDriven.Tests\\GildedRoseKata.TestDriven.Tests.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "IbanValidation\\IbanValidation.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 2,
+      "properties": {
+        "appName": "IbanValidation",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 2,
+        "numberOfCodeFiles": 2,
+        "linesTotal": 61,
+        "linesOfCode": 61,
+        "totalApiScanned": 35,
+        "minLinesOfCodeToChange": 1,
+        "maxLinesOfCodeToChange": 1
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "e86599aa-f482-4825-819f-ab509d147e0b",
+          "ruleId": "Project.0002",
+          "projectPath": "IbanValidation\\IbanValidation.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "IbanValidation\\IbanValidation.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "89758d44-a1c9-4b56-9884-8c92f2d1fdc5",
+          "ruleId": "Api.0002",
+          "description": "Breaking change: BigInteger maximum length ",
+          "projectPath": "IbanValidation\\IbanValidation.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (!BigInteger.TryParse(numericIban, out ibanInt))\r\n                return false;",
+              "protected": "T:System.Numerics.BigInteger"
+            },
+            "kind": "File",
+            "path": "IbanValidation\\IbanValidationService.cs",
+            "snippet": "if (!BigInteger.TryParse(numericIban, out ibanInt))\r\n                return false;",
+            "protectedSnippet": "T:System.Numerics.BigInteger",
+            "label": "T:System.Numerics.BigInteger",
+            "links": [
+              {
+                "title": "API-Dokumentation",
+                "url": "https://github.com/dotnet/docs/blob/main/docs/core/compatibility/core-libraries/9.0/biginteger-limit.md",
+                "isCustom": false
+              }
+            ],
+            "line": 44,
+            "column": 12
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "IbanValidation.Tests\\IbanValidation.Tests.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "IbanValidation.Tests",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 1848,
+        "linesOfCode": 53,
+        "totalApiScanned": 64,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "9a8a2165-4bc2-45af-a5a0-b74f1f9acd3f",
+          "ruleId": "NuGet.0005",
+          "projectPath": "IbanValidation.Tests\\IbanValidation.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Verify.Xunit, 30.10.0\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove Verify.Xunit, and replace with new package Verify.Xunit, 31.12.5",
+              "protected": "Verify.Xunit, 30.10.0\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove Verify.Xunit, and replace with new package Verify.Xunit, 31.12.5"
+            },
+            "kind": "File",
+            "path": "IbanValidation.Tests\\IbanValidation.Tests.csproj",
+            "snippet": "Verify.Xunit, 30.10.0\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove Verify.Xunit, and replace with new package Verify.Xunit, 31.12.5",
+            "protectedSnippet": "Verify.Xunit, 30.10.0\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove Verify.Xunit, and replace with new package Verify.Xunit, 31.12.5",
+            "label": "Verify.Xunit 30.10.0",
+            "properties": {
+              "PackageId": "Verify.Xunit",
+              "PackageVersion": "30.10.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "3cbe5730-305d-4d54-95cc-74377d9f93f5",
+          "ruleId": "NuGet.0005",
+          "projectPath": "IbanValidation.Tests\\IbanValidation.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+              "protected": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3"
+            },
+            "kind": "File",
+            "path": "IbanValidation.Tests\\IbanValidation.Tests.csproj",
+            "snippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "protectedSnippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "label": "xunit 2.9.3",
+            "properties": {
+              "PackageId": "xunit",
+              "PackageVersion": "2.9.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "84cd3cb2-8a95-4f3c-aac6-f357814bf990",
+          "ruleId": "Project.0002",
+          "projectPath": "IbanValidation.Tests\\IbanValidation.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "IbanValidation.Tests\\IbanValidation.Tests.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "InterfaceSegragation\\InterfaceSegregation.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "InterfaceSegregation",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 5,
+        "numberOfCodeFiles": 5,
+        "linesTotal": 46,
+        "linesOfCode": 46,
+        "totalApiScanned": 23,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "cdb7b6a5-4825-45b3-8327-a1dca0843b36",
+          "ruleId": "Project.0002",
+          "projectPath": "InterfaceSegragation\\InterfaceSegregation.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "InterfaceSegragation\\InterfaceSegregation.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "07_Kniffel\\Kniffel.Original\\Kniffel.Original.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 2,
+      "properties": {
+        "appName": "Kniffel.Original",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 2,
+        "numberOfCodeFiles": 2,
+        "linesTotal": 262,
+        "linesOfCode": 262,
+        "totalApiScanned": 132,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "bdc59b89-9346-413f-ae96-be255e42421b",
+          "ruleId": "NuGet.0003",
+          "projectPath": "07_Kniffel\\Kniffel.Original\\Kniffel.Original.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t",
+              "protected": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t"
+            },
+            "kind": "File",
+            "path": "07_Kniffel\\Kniffel.Original\\Kniffel.Original.csproj",
+            "snippet": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t",
+            "protectedSnippet": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t",
+            "label": "System.Data.DataSetExtensions 4.5.0",
+            "properties": {
+              "PackageId": "System.Data.DataSetExtensions",
+              "PackageVersion": "4.5.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "bb8d4614-4ff8-49b5-b6ec-f94d9409918c",
+          "ruleId": "Project.0002",
+          "projectPath": "07_Kniffel\\Kniffel.Original\\Kniffel.Original.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "07_Kniffel\\Kniffel.Original\\Kniffel.Original.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "07_Kniffel\\Kniffel.Original.Tests\\Kniffel.Original.Tests.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "Kniffel.Original.Tests",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 1924,
+        "linesOfCode": 129,
+        "totalApiScanned": 319,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "f88b3656-0a28-4336-b4e8-3c1d0ea3e264",
+          "ruleId": "NuGet.0005",
+          "projectPath": "07_Kniffel\\Kniffel.Original.Tests\\Kniffel.Original.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Verify.Xunit, 30.10.0\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove Verify.Xunit, and replace with new package Verify.Xunit, 31.12.5",
+              "protected": "Verify.Xunit, 30.10.0\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove Verify.Xunit, and replace with new package Verify.Xunit, 31.12.5"
+            },
+            "kind": "File",
+            "path": "07_Kniffel\\Kniffel.Original.Tests\\Kniffel.Original.Tests.csproj",
+            "snippet": "Verify.Xunit, 30.10.0\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove Verify.Xunit, and replace with new package Verify.Xunit, 31.12.5",
+            "protectedSnippet": "Verify.Xunit, 30.10.0\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove Verify.Xunit, and replace with new package Verify.Xunit, 31.12.5",
+            "label": "Verify.Xunit 30.10.0",
+            "properties": {
+              "PackageId": "Verify.Xunit",
+              "PackageVersion": "30.10.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "d705388d-8c7c-4e94-a5d6-cb8f54f39437",
+          "ruleId": "NuGet.0005",
+          "projectPath": "07_Kniffel\\Kniffel.Original.Tests\\Kniffel.Original.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+              "protected": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3"
+            },
+            "kind": "File",
+            "path": "07_Kniffel\\Kniffel.Original.Tests\\Kniffel.Original.Tests.csproj",
+            "snippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "protectedSnippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "label": "xunit 2.9.3",
+            "properties": {
+              "PackageId": "xunit",
+              "PackageVersion": "2.9.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "4eb7f5be-9902-49e5-b42e-e954a9f31eb8",
+          "ruleId": "Project.0002",
+          "projectPath": "07_Kniffel\\Kniffel.Original.Tests\\Kniffel.Original.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "07_Kniffel\\Kniffel.Original.Tests\\Kniffel.Original.Tests.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "07_Kniffel\\Kniffel.Refactored\\Kniffel.Refactored.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "Kniffel.Refactored",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 15,
+        "numberOfCodeFiles": 15,
+        "linesTotal": 431,
+        "linesOfCode": 431,
+        "totalApiScanned": 356,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "8a925a60-281e-4772-84d7-a5d46d0c3731",
+          "ruleId": "Project.0002",
+          "projectPath": "07_Kniffel\\Kniffel.Refactored\\Kniffel.Refactored.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "07_Kniffel\\Kniffel.Refactored\\Kniffel.Refactored.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "Liskov\\Liskov.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "Liskov",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 4,
+        "numberOfCodeFiles": 4,
+        "linesTotal": 108,
+        "linesOfCode": 108,
+        "totalApiScanned": 90,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "57b1abeb-d856-4949-bd23-1dc9b07db799",
+          "ruleId": "Project.0002",
+          "projectPath": "Liskov\\Liskov.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "Liskov\\Liskov.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "Liskov.Tests\\Liskov.Tests.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "Liskov.Tests",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 1821,
+        "linesOfCode": 26,
+        "totalApiScanned": 20,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "33e886ed-1af5-49bb-bfed-f69daf8dd234",
+          "ruleId": "NuGet.0005",
+          "projectPath": "Liskov.Tests\\Liskov.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+              "protected": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3"
+            },
+            "kind": "File",
+            "path": "Liskov.Tests\\Liskov.Tests.csproj",
+            "snippet": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+            "protectedSnippet": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+            "label": "MSTest 3.6.4",
+            "properties": {
+              "PackageId": "MSTest",
+              "PackageVersion": "3.6.4",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "53b13d76-6ce4-4987-a353-d1a54138c258",
+          "ruleId": "NuGet.0005",
+          "projectPath": "Liskov.Tests\\Liskov.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+              "protected": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3"
+            },
+            "kind": "File",
+            "path": "Liskov.Tests\\Liskov.Tests.csproj",
+            "snippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "protectedSnippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "label": "xunit 2.9.3",
+            "properties": {
+              "PackageId": "xunit",
+              "PackageVersion": "2.9.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "2903d251-8558-40c2-91e3-8107a2b8cdc2",
+          "ruleId": "Project.0002",
+          "projectPath": "Liskov.Tests\\Liskov.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "Liskov.Tests\\Liskov.Tests.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "MarsRoverKata\\MarsRoverKata.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "MarsRoverKata",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 10,
+        "numberOfCodeFiles": 10,
+        "linesTotal": 275,
+        "linesOfCode": 275,
+        "totalApiScanned": 122,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "a25f9aed-0f93-4a4d-a8b4-334d8bd13f86",
+          "ruleId": "Project.0002",
+          "projectPath": "MarsRoverKata\\MarsRoverKata.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "MarsRoverKata\\MarsRoverKata.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "MarsroverKata.Final\\MarsroverKata.Final\\MarsroverKata.Final.csproj",
+      "startingProject": true,
+      "issues": 3,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "MarsroverKata.Final",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net8.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 3,
+        "linesTotal": 131,
+        "linesOfCode": 131,
+        "totalApiScanned": 94,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "0bb31bec-1128-4420-8174-5e10f001c31d",
+          "ruleId": "NuGet.0002",
+          "projectPath": "MarsroverKata.Final\\MarsroverKata.Final\\MarsroverKata.Final.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Newtonsoft.Json, 13.0.4-beta1\n\nEmpfehlung:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4",
+              "protected": "Newtonsoft.Json, 13.0.4-beta1\n\nEmpfehlung:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4"
+            },
+            "kind": "File",
+            "path": "MarsroverKata.Final\\MarsroverKata.Final\\MarsroverKata.Final.csproj",
+            "snippet": "Newtonsoft.Json, 13.0.4-beta1\n\nEmpfehlung:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4",
+            "protectedSnippet": "Newtonsoft.Json, 13.0.4-beta1\n\nEmpfehlung:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4",
+            "label": "Newtonsoft.Json 13.0.4-beta1",
+            "properties": {
+              "PackageId": "Newtonsoft.Json",
+              "PackageVersion": "13.0.4-beta1",
+              "PackageNewVersion": "13.0.4",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "69f7789c-35e0-46b2-a381-6dcd3a85646c",
+          "ruleId": "NuGet.0005",
+          "projectPath": "MarsroverKata.Final\\MarsroverKata.Final\\MarsroverKata.Final.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+              "protected": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3"
+            },
+            "kind": "File",
+            "path": "MarsroverKata.Final\\MarsroverKata.Final\\MarsroverKata.Final.csproj",
+            "snippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "protectedSnippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "label": "xunit 2.9.3",
+            "properties": {
+              "PackageId": "xunit",
+              "PackageVersion": "2.9.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "30ba9824-a980-4f8d-8e7f-33efb3325dc4",
+          "ruleId": "Project.0002",
+          "projectPath": "MarsroverKata.Final\\MarsroverKata.Final\\MarsroverKata.Final.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net8.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net8.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "MarsroverKata.Final\\MarsroverKata.Final\\MarsroverKata.Final.csproj",
+            "snippet": "Aktuelles Zielframework: net8.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net8.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net8.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "MarsroverKata.Final.Tests\\MarsroverKata.Final.Tests.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 2,
+      "properties": {
+        "appName": "MarsroverKata.Final.Tests",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net8.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 1895,
+        "linesOfCode": 100,
+        "totalApiScanned": 65,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "21c75fd4-a304-4970-a4ad-dd87418330b4",
+          "ruleId": "NuGet.0005",
+          "projectPath": "MarsroverKata.Final.Tests\\MarsroverKata.Final.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+              "protected": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3"
+            },
+            "kind": "File",
+            "path": "MarsroverKata.Final.Tests\\MarsroverKata.Final.Tests.csproj",
+            "snippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "protectedSnippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "label": "xunit 2.9.3",
+            "properties": {
+              "PackageId": "xunit",
+              "PackageVersion": "2.9.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "185da534-8f31-4128-8f67-d6fe229c4b3d",
+          "ruleId": "Project.0002",
+          "projectPath": "MarsroverKata.Final.Tests\\MarsroverKata.Final.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net8.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net8.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "MarsroverKata.Final.Tests\\MarsroverKata.Final.Tests.csproj",
+            "snippet": "Aktuelles Zielframework: net8.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net8.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net8.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "MarsRoverKata.Tests\\MarsRoverKata.Tests.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 2,
+      "properties": {
+        "appName": "MarsRoverKata.Tests",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 7,
+        "numberOfCodeFiles": 5,
+        "linesTotal": 1942,
+        "linesOfCode": 279,
+        "totalApiScanned": 119,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "24e04a00-3506-43a9-828e-c7f289d370c8",
+          "ruleId": "NuGet.0005",
+          "projectPath": "MarsRoverKata.Tests\\MarsRoverKata.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+              "protected": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3"
+            },
+            "kind": "File",
+            "path": "MarsRoverKata.Tests\\MarsRoverKata.Tests.csproj",
+            "snippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "protectedSnippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "label": "xunit 2.9.3",
+            "properties": {
+              "PackageId": "xunit",
+              "PackageVersion": "2.9.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "4aba42ff-e049-4996-a803-a10ac9bb2b96",
+          "ruleId": "Project.0002",
+          "projectPath": "MarsRoverKata.Tests\\MarsRoverKata.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "MarsRoverKata.Tests\\MarsRoverKata.Tests.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "ModelContextProtocol\\ModelContextProtocol.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "ModelContextProtocol",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 24,
+        "linesOfCode": 10,
+        "totalApiScanned": 4,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "50266bf2-dbdd-430c-ba00-02962bf7d4b5",
+          "ruleId": "Project.0002",
+          "projectPath": "ModelContextProtocol\\ModelContextProtocol.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "ModelContextProtocol\\ModelContextProtocol.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "OpenApiAutomation\\OpenApiAutomation.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 5,
+      "properties": {
+        "appName": "OpenApiAutomation",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 1,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 150,
+        "linesOfCode": 150,
+        "totalApiScanned": 137,
+        "minLinesOfCodeToChange": 4,
+        "maxLinesOfCodeToChange": 4
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "a28cd3ec-3277-4bcc-920b-5df3589bbe99",
+          "ruleId": "Project.0002",
+          "projectPath": "OpenApiAutomation\\OpenApiAutomation.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "OpenApiAutomation\\OpenApiAutomation.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "19110254-e2f7-493f-8a79-e809ac8734fc",
+          "ruleId": "Api.0003",
+          "description": "Breaking change - Streaming HTTP responses enabled by default in browser HTTP clients ",
+          "projectPath": "OpenApiAutomation\\OpenApiAutomation.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var body = await response.Content.ReadAsStringAsync();",
+              "protected": "T:System.Net.Http.HttpContent"
+            },
+            "kind": "File",
+            "path": "OpenApiAutomation\\Program.cs",
+            "snippet": "var body = await response.Content.ReadAsStringAsync();",
+            "protectedSnippet": "T:System.Net.Http.HttpContent",
+            "label": "T:System.Net.Http.HttpContent",
+            "links": [
+              {
+                "title": "API-Dokumentation",
+                "url": "https://github.com/dotnet/docs/blob/main/docs/core/compatibility/networking/10.0/default-http-streaming.md",
+                "isCustom": false
+              }
+            ],
+            "line": 54,
+            "column": 20
+          }
+        },
+        {
+          "incidentId": "d7504ef9-0024-45e3-99a4-a1b702bc0dfa",
+          "ruleId": "Api.0003",
+          "description": "Breaking change: URI length limits removed ",
+          "projectPath": "OpenApiAutomation\\OpenApiAutomation.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var http = new HttpClient\r\n            {\r\n                BaseAddress = new Uri(\u0022https://api.openai.com/\u0022)\r\n            };",
+              "protected": "T:System.Uri"
+            },
+            "kind": "File",
+            "path": "OpenApiAutomation\\Program.cs",
+            "snippet": "using var http = new HttpClient\r\n            {\r\n                BaseAddress = new Uri(\u0022https://api.openai.com/\u0022)\r\n            };",
+            "protectedSnippet": "T:System.Uri",
+            "label": "T:System.Uri",
+            "links": [
+              {
+                "title": "API-Dokumentation",
+                "url": "https://github.com/dotnet/docs/blob/main/docs/core/compatibility/networking/10.0/uri-length-limits-removed.md",
+                "isCustom": false
+              }
+            ],
+            "line": 23,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "9f9035e6-fdf6-49fa-823b-91766398651e",
+          "ruleId": "Api.0003",
+          "description": "Breaking change: URI length limits removed ",
+          "projectPath": "OpenApiAutomation\\OpenApiAutomation.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var http = new HttpClient\r\n            {\r\n                BaseAddress = new Uri(\u0022https://api.openai.com/\u0022)\r\n            };",
+              "protected": "M:System.Uri.#ctor(System.String)"
+            },
+            "kind": "File",
+            "path": "OpenApiAutomation\\Program.cs",
+            "snippet": "using var http = new HttpClient\r\n            {\r\n                BaseAddress = new Uri(\u0022https://api.openai.com/\u0022)\r\n            };",
+            "protectedSnippet": "M:System.Uri.#ctor(System.String)",
+            "label": "M:System.Uri.#ctor(System.String)",
+            "links": [
+              {
+                "title": "API-Dokumentation",
+                "url": "https://github.com/dotnet/docs/blob/main/docs/core/compatibility/networking/10.0/uri-length-limits-removed.md",
+                "isCustom": false
+              }
+            ],
+            "line": 23,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "2d93fa43-d8a5-4769-8692-f04275c3b18b",
+          "ruleId": "Api.0003",
+          "description": "Breaking change: URI length limits removed ",
+          "projectPath": "OpenApiAutomation\\OpenApiAutomation.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var http = new HttpClient\r\n            {\r\n                BaseAddress = new Uri(\u0022https://api.openai.com/\u0022)\r\n            };",
+              "protected": "T:System.Uri"
+            },
+            "kind": "File",
+            "path": "OpenApiAutomation\\Program.cs",
+            "snippet": "using var http = new HttpClient\r\n            {\r\n                BaseAddress = new Uri(\u0022https://api.openai.com/\u0022)\r\n            };",
+            "protectedSnippet": "T:System.Uri",
+            "label": "T:System.Uri",
+            "links": [
+              {
+                "title": "API-Dokumentation",
+                "url": "https://github.com/dotnet/docs/blob/main/docs/core/compatibility/networking/10.0/uri-length-limits-removed.md",
+                "isCustom": false
+              }
+            ],
+            "line": 23,
+            "column": 12
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "OpenClosed.Final\\OpenClosed.Final.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "OpenClosed.Final",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 7,
+        "numberOfCodeFiles": 7,
+        "linesTotal": 119,
+        "linesOfCode": 119,
+        "totalApiScanned": 111,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "568825c8-3133-439f-a49c-accd9603c807",
+          "ruleId": "Project.0002",
+          "projectPath": "OpenClosed.Final\\OpenClosed.Final.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "OpenClosed.Final\\OpenClosed.Final.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "OpenClosed.Original\\OpenClosed.Original.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "OpenClosed.Original",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 2,
+        "numberOfCodeFiles": 2,
+        "linesTotal": 34,
+        "linesOfCode": 34,
+        "totalApiScanned": 30,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "a550d8f1-0abd-4241-a31f-725c807d832b",
+          "ruleId": "Project.0002",
+          "projectPath": "OpenClosed.Original\\OpenClosed.Original.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "OpenClosed.Original\\OpenClosed.Original.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "OpenClosed.Original.Tests\\OpenClosed.Original.Tests.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 2,
+      "properties": {
+        "appName": "OpenClosed.Original.Tests",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 1831,
+        "linesOfCode": 36,
+        "totalApiScanned": 33,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "abd6e363-34e8-4abb-82a4-f04b759e71cc",
+          "ruleId": "NuGet.0005",
+          "projectPath": "OpenClosed.Original.Tests\\OpenClosed.Original.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+              "protected": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3"
+            },
+            "kind": "File",
+            "path": "OpenClosed.Original.Tests\\OpenClosed.Original.Tests.csproj",
+            "snippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "protectedSnippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "label": "xunit 2.9.3",
+            "properties": {
+              "PackageId": "xunit",
+              "PackageVersion": "2.9.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "b80d23b7-17c9-4caf-abc0-9d61b16c19b7",
+          "ruleId": "Project.0002",
+          "projectPath": "OpenClosed.Original.Tests\\OpenClosed.Original.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "OpenClosed.Original.Tests\\OpenClosed.Original.Tests.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "PerformanceTuning\\PerformanceTuning.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "PerformanceTuning",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 3,
+        "linesTotal": 145,
+        "linesOfCode": 145,
+        "totalApiScanned": 85,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "b72c6a2c-bafe-4c05-920a-cd39eb943217",
+          "ruleId": "Project.0002",
+          "projectPath": "PerformanceTuning\\PerformanceTuning.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "PerformanceTuning\\PerformanceTuning.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "PromptFiles\\PromptFiles.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "PromptFiles",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 1,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 10,
+        "linesOfCode": 10,
+        "totalApiScanned": 4,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "418cd70d-d69b-4e28-b0db-3a629013e7a5",
+          "ruleId": "Project.0002",
+          "projectPath": "PromptFiles\\PromptFiles.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "PromptFiles\\PromptFiles.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "RepositoryCustomInstructions\\RepositoryCustomInstructions.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "RepositoryCustomInstructions",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 1,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 11,
+        "linesOfCode": 11,
+        "totalApiScanned": 6,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "1810b410-d852-41e0-bb00-84343c73ab3f",
+          "ruleId": "Project.0002",
+          "projectPath": "RepositoryCustomInstructions\\RepositoryCustomInstructions.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "RepositoryCustomInstructions\\RepositoryCustomInstructions.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "Routenplaner\\Routenplaner.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "Routenplaner",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 7,
+        "numberOfCodeFiles": 7,
+        "linesTotal": 90,
+        "linesOfCode": 90,
+        "totalApiScanned": 23,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "e1666fa1-687c-4041-9502-0b2377ac89d2",
+          "ruleId": "Project.0002",
+          "projectPath": "Routenplaner\\Routenplaner.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "Routenplaner\\Routenplaner.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "RoutenplanerTests\\Routenplaner.Tests.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 2,
+      "properties": {
+        "appName": "Routenplaner.Tests",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 1850,
+        "linesOfCode": 67,
+        "totalApiScanned": 43,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "3afe87c4-bfe6-4da7-bf12-3aca815a0c75",
+          "ruleId": "NuGet.0005",
+          "projectPath": "RoutenplanerTests\\Routenplaner.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+              "protected": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3"
+            },
+            "kind": "File",
+            "path": "RoutenplanerTests\\Routenplaner.Tests.csproj",
+            "snippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "protectedSnippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "label": "xunit 2.9.3",
+            "properties": {
+              "PackageId": "xunit",
+              "PackageVersion": "2.9.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "4ec6fecb-f1af-4e3b-99de-c940f5f30e68",
+          "ruleId": "Project.0002",
+          "projectPath": "RoutenplanerTests\\Routenplaner.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "RoutenplanerTests\\Routenplaner.Tests.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "SecurityVulnerabilities\\SecurityVulnerabilities.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "SecurityVulnerabilities",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 3,
+        "linesTotal": 94,
+        "linesOfCode": 94,
+        "totalApiScanned": 69,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "1d0f4689-c75f-4e8d-a70f-72512eff8ba5",
+          "ruleId": "Project.0002",
+          "projectPath": "SecurityVulnerabilities\\SecurityVulnerabilities.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "SecurityVulnerabilities\\SecurityVulnerabilities.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "03_Telefon\\A_Original\\Telefon.Original.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 2,
+      "properties": {
+        "appName": "Telefon.Original",
+        "projectKind": "ClassLibrary",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 2,
+        "numberOfCodeFiles": 2,
+        "linesTotal": 103,
+        "linesOfCode": 103,
+        "totalApiScanned": 133,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "8bc919d2-ac87-4779-8dee-8631300180de",
+          "ruleId": "NuGet.0003",
+          "projectPath": "03_Telefon\\A_Original\\Telefon.Original.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t",
+              "protected": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t"
+            },
+            "kind": "File",
+            "path": "03_Telefon\\A_Original\\Telefon.Original.csproj",
+            "snippet": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t",
+            "protectedSnippet": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t",
+            "label": "System.Data.DataSetExtensions 4.5.0",
+            "properties": {
+              "PackageId": "System.Data.DataSetExtensions",
+              "PackageVersion": "4.5.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "170fb3e8-1fa8-468d-a0f0-0ce33a2b393e",
+          "ruleId": "Project.0002",
+          "projectPath": "03_Telefon\\A_Original\\Telefon.Original.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "03_Telefon\\A_Original\\Telefon.Original.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "03_Telefon\\A_Original.Tests\\Telefon.Original.Tests.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "Telefon.Original.Tests",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 1949,
+        "linesOfCode": 154,
+        "totalApiScanned": 149,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "290bec54-4200-446d-b031-1cb132833d21",
+          "ruleId": "NuGet.0005",
+          "projectPath": "03_Telefon\\A_Original.Tests\\Telefon.Original.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+              "protected": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3"
+            },
+            "kind": "File",
+            "path": "03_Telefon\\A_Original.Tests\\Telefon.Original.Tests.csproj",
+            "snippet": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+            "protectedSnippet": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+            "label": "MSTest 3.6.4",
+            "properties": {
+              "PackageId": "MSTest",
+              "PackageVersion": "3.6.4",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "374615c4-896c-4dfe-81ce-c5ff9386da58",
+          "ruleId": "NuGet.0005",
+          "projectPath": "03_Telefon\\A_Original.Tests\\Telefon.Original.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+              "protected": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3"
+            },
+            "kind": "File",
+            "path": "03_Telefon\\A_Original.Tests\\Telefon.Original.Tests.csproj",
+            "snippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "protectedSnippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "label": "xunit 2.9.3",
+            "properties": {
+              "PackageId": "xunit",
+              "PackageVersion": "2.9.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "6ae0fa66-acbc-4579-88b8-56d3b55f88ca",
+          "ruleId": "Project.0002",
+          "projectPath": "03_Telefon\\A_Original.Tests\\Telefon.Original.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "03_Telefon\\A_Original.Tests\\Telefon.Original.Tests.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "03_Telefon\\C_Refactored\\Telefon.Refactored.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 2,
+      "properties": {
+        "appName": "Telefon.Refactored",
+        "projectKind": "ClassLibrary",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 5,
+        "numberOfCodeFiles": 5,
+        "linesTotal": 158,
+        "linesOfCode": 158,
+        "totalApiScanned": 184,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "ba4f7e56-8f51-4b7b-8ced-616a4a12413a",
+          "ruleId": "NuGet.0003",
+          "projectPath": "03_Telefon\\C_Refactored\\Telefon.Refactored.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t",
+              "protected": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t"
+            },
+            "kind": "File",
+            "path": "03_Telefon\\C_Refactored\\Telefon.Refactored.csproj",
+            "snippet": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t",
+            "protectedSnippet": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t",
+            "label": "System.Data.DataSetExtensions 4.5.0",
+            "properties": {
+              "PackageId": "System.Data.DataSetExtensions",
+              "PackageVersion": "4.5.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "527708e5-e2dd-498b-aea0-73bce7a613e8",
+          "ruleId": "Project.0002",
+          "projectPath": "03_Telefon\\C_Refactored\\Telefon.Refactored.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "03_Telefon\\C_Refactored\\Telefon.Refactored.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "03_Telefon\\C_Refactored.Tests\\Telefon.Refactored.Tests.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "Telefon.Refactored.Tests",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 1950,
+        "linesOfCode": 155,
+        "totalApiScanned": 139,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "a5cb38b7-a14a-4ad8-911f-5616b649d678",
+          "ruleId": "NuGet.0005",
+          "projectPath": "03_Telefon\\C_Refactored.Tests\\Telefon.Refactored.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+              "protected": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3"
+            },
+            "kind": "File",
+            "path": "03_Telefon\\C_Refactored.Tests\\Telefon.Refactored.Tests.csproj",
+            "snippet": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+            "protectedSnippet": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+            "label": "MSTest 3.6.4",
+            "properties": {
+              "PackageId": "MSTest",
+              "PackageVersion": "3.6.4",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "7fda54ce-b26e-4fb3-a272-ba7d87165879",
+          "ruleId": "NuGet.0005",
+          "projectPath": "03_Telefon\\C_Refactored.Tests\\Telefon.Refactored.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+              "protected": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3"
+            },
+            "kind": "File",
+            "path": "03_Telefon\\C_Refactored.Tests\\Telefon.Refactored.Tests.csproj",
+            "snippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "protectedSnippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "label": "xunit 2.9.3",
+            "properties": {
+              "PackageId": "xunit",
+              "PackageVersion": "2.9.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "6887323d-01a5-4048-a4e9-9dbbe98aa497",
+          "ruleId": "Project.0002",
+          "projectPath": "03_Telefon\\C_Refactored.Tests\\Telefon.Refactored.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "03_Telefon\\C_Refactored.Tests\\Telefon.Refactored.Tests.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "02_TicTacToe\\D_Final\\TicTacToe.Final.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 2,
+      "properties": {
+        "appName": "TicTacToe.Final",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 6,
+        "numberOfCodeFiles": 6,
+        "linesTotal": 198,
+        "linesOfCode": 198,
+        "totalApiScanned": 238,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "55e303a3-4d4d-4209-a837-63b4d90734f3",
+          "ruleId": "NuGet.0003",
+          "projectPath": "02_TicTacToe\\D_Final\\TicTacToe.Final.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t",
+              "protected": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t"
+            },
+            "kind": "File",
+            "path": "02_TicTacToe\\D_Final\\TicTacToe.Final.csproj",
+            "snippet": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t",
+            "protectedSnippet": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t",
+            "label": "System.Data.DataSetExtensions 4.5.0",
+            "properties": {
+              "PackageId": "System.Data.DataSetExtensions",
+              "PackageVersion": "4.5.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "0e37fd04-500d-4e07-b9c7-487d02bd7ce0",
+          "ruleId": "Project.0002",
+          "projectPath": "02_TicTacToe\\D_Final\\TicTacToe.Final.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "02_TicTacToe\\D_Final\\TicTacToe.Final.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "02_TicTacToe\\D_Final.Tests\\TicTacToe.Final.Tests.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "TicTacToe.Final.Tests",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 5,
+        "numberOfCodeFiles": 3,
+        "linesTotal": 1931,
+        "linesOfCode": 136,
+        "totalApiScanned": 131,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "7bd2d814-08dd-4b5f-934c-602568f28c5e",
+          "ruleId": "NuGet.0005",
+          "projectPath": "02_TicTacToe\\D_Final.Tests\\TicTacToe.Final.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+              "protected": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3"
+            },
+            "kind": "File",
+            "path": "02_TicTacToe\\D_Final.Tests\\TicTacToe.Final.Tests.csproj",
+            "snippet": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+            "protectedSnippet": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+            "label": "MSTest 3.6.4",
+            "properties": {
+              "PackageId": "MSTest",
+              "PackageVersion": "3.6.4",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "d3364653-68c5-45fe-9954-1e93c0bfeaa9",
+          "ruleId": "NuGet.0005",
+          "projectPath": "02_TicTacToe\\D_Final.Tests\\TicTacToe.Final.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+              "protected": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3"
+            },
+            "kind": "File",
+            "path": "02_TicTacToe\\D_Final.Tests\\TicTacToe.Final.Tests.csproj",
+            "snippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "protectedSnippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "label": "xunit 2.9.3",
+            "properties": {
+              "PackageId": "xunit",
+              "PackageVersion": "2.9.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "a739c764-2cae-45af-a2a9-bc06ebfaa697",
+          "ruleId": "Project.0002",
+          "projectPath": "02_TicTacToe\\D_Final.Tests\\TicTacToe.Final.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "02_TicTacToe\\D_Final.Tests\\TicTacToe.Final.Tests.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "02_TicTacToe\\A_Original\\TicTacToe.Original.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 2,
+      "properties": {
+        "appName": "TicTacToe.Original",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 1,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 337,
+        "linesOfCode": 337,
+        "totalApiScanned": 397,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "2350f238-97de-4961-b1ac-333b9c3f29a3",
+          "ruleId": "NuGet.0003",
+          "projectPath": "02_TicTacToe\\A_Original\\TicTacToe.Original.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t",
+              "protected": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t"
+            },
+            "kind": "File",
+            "path": "02_TicTacToe\\A_Original\\TicTacToe.Original.csproj",
+            "snippet": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t",
+            "protectedSnippet": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t",
+            "label": "System.Data.DataSetExtensions 4.5.0",
+            "properties": {
+              "PackageId": "System.Data.DataSetExtensions",
+              "PackageVersion": "4.5.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "b23cf1fa-a01c-4754-9f36-2029b7a8c64d",
+          "ruleId": "Project.0002",
+          "projectPath": "02_TicTacToe\\A_Original\\TicTacToe.Original.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "02_TicTacToe\\A_Original\\TicTacToe.Original.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "02_TicTacToe\\B_Testable\\TicTacToe.Testable.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 2,
+      "properties": {
+        "appName": "TicTacToe.Testable",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 5,
+        "numberOfCodeFiles": 4,
+        "linesTotal": 420,
+        "linesOfCode": 415,
+        "totalApiScanned": 561,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "edf8b28f-2c30-4fa6-a03b-da36fd66ede1",
+          "ruleId": "NuGet.0003",
+          "projectPath": "02_TicTacToe\\B_Testable\\TicTacToe.Testable.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t",
+              "protected": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t"
+            },
+            "kind": "File",
+            "path": "02_TicTacToe\\B_Testable\\TicTacToe.Testable.csproj",
+            "snippet": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t",
+            "protectedSnippet": "System.Data.DataSetExtensions, 4.5.0\n\nEmpfehlung:\n\nIm neuen Frameworkverweis enthaltene Paketfunktionalit\u00E4t",
+            "label": "System.Data.DataSetExtensions 4.5.0",
+            "properties": {
+              "PackageId": "System.Data.DataSetExtensions",
+              "PackageVersion": "4.5.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "dba44697-4818-41a1-a67b-07269ccbe114",
+          "ruleId": "Project.0002",
+          "projectPath": "02_TicTacToe\\B_Testable\\TicTacToe.Testable.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "02_TicTacToe\\B_Testable\\TicTacToe.Testable.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "02_TicTacToe\\B_Testable.Tests\\TicTacToe.Testable.Tests.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "TicTacToe.Testable.Tests",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net9.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 4,
+        "numberOfCodeFiles": 2,
+        "linesTotal": 1941,
+        "linesOfCode": 146,
+        "totalApiScanned": 127,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "d29c7a39-3114-4e5f-82e9-83e9ad501d4d",
+          "ruleId": "NuGet.0005",
+          "projectPath": "02_TicTacToe\\B_Testable.Tests\\TicTacToe.Testable.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+              "protected": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3"
+            },
+            "kind": "File",
+            "path": "02_TicTacToe\\B_Testable.Tests\\TicTacToe.Testable.Tests.csproj",
+            "snippet": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+            "protectedSnippet": "MSTest, 3.6.4\n\nEmpfehlung:\n\nSollte ersetzt werden.\nRemove MSTest, and replace with new package MSTest, 4.3.3",
+            "label": "MSTest 3.6.4",
+            "properties": {
+              "PackageId": "MSTest",
+              "PackageVersion": "3.6.4",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "bd4913ed-da5e-4a12-94b6-3bf4630e1649",
+          "ruleId": "NuGet.0005",
+          "projectPath": "02_TicTacToe\\B_Testable.Tests\\TicTacToe.Testable.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+              "protected": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3"
+            },
+            "kind": "File",
+            "path": "02_TicTacToe\\B_Testable.Tests\\TicTacToe.Testable.Tests.csproj",
+            "snippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "protectedSnippet": "xunit, 2.9.3\n\nEmpfehlung:\n\nThis package will only be updated for security issues. All future feature work has moved onto v3.\n\nGuide for migrating from xUnit.net v2 to v3: https://xunit.net/docs/getting-started/v3/migration\nRemove xunit, and replace with new package xunit, 2.9.3",
+            "label": "xunit 2.9.3",
+            "properties": {
+              "PackageId": "xunit",
+              "PackageVersion": "2.9.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "77a951b5-f3c9-44ca-a4eb-87049e4ee36e",
+          "ruleId": "Project.0002",
+          "projectPath": "02_TicTacToe\\B_Testable.Tests\\TicTacToe.Testable.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+              "protected": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0"
+            },
+            "kind": "File",
+            "path": "02_TicTacToe\\B_Testable.Tests\\TicTacToe.Testable.Tests.csproj",
+            "snippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "protectedSnippet": "Aktuelles Zielframework: net9.0\nEmpfohlenes Zielframework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net9.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    }
+  ],
+  "rules": {
+    "Project.0002": {
+      "id": "Project.0002",
+      "isFeature": false,
+      "description": "Die Zielframeworks des Projekts m\u00FCssen in das neue Zielframework ge\u00E4ndert werden, das Sie f\u00FCr dieses Upgrade ausgew\u00E4hlt haben.\n\nW\u00E4hrend des Upgrades wird das Zielframework an die entsprechende Plattform angepasst, falls zutreffend. In einigen F\u00E4llen, f\u00FChrte das Upgrade des Projekts zu mehreren Zielframeworks, wenn es Features verwendete, die jetzt \u00FCber eigene Plattformen in modernen .NET-Frameworks (Windows, iOS, Android usw.) verf\u00FCgen.",
+      "label": "Die Zielframeworks des Projekts m\u00FCssen ge\u00E4ndert werden",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "\u00DCbersicht \u00FCber das Portieren von .NET\u00A0Framework zu .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET-Projekt-SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0005": {
+      "id": "NuGet.0005",
+      "isFeature": false,
+      "description": "Das NuGet-Paket ist veraltet.\n\nWechseln Sie zur Dokumentation, und wenn ein Leitfaden zum Ersetzen der von diesem Paket bereitgestellten Funktionen vorhanden ist.",
+      "label": "Das NuGet-Paket ist veraltet",
+      "severity": "Optional",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262531",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0002": {
+      "id": "NuGet.0002",
+      "isFeature": false,
+      "description": "F\u00FCr das ausgew\u00E4hlte Zielframework wird ein NuGet-Paketupgrade empfohlen.\n\nStandardm\u00E4\u00DFige .NET-Pakete werden empfohlen, um Versionen zu verwenden, die der Version von .NET entsprechen, auf die das Projekt abzielt.\n\nAuch einige andere Pakete funktionieren f\u00FCr die ausgew\u00E4hlten Zielframeworks bekanntlich besser.",
+      "label": "Ein NuGet-Paketupgrade wird empfohlen",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262530",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0002": {
+      "id": "Api.0002",
+      "isFeature": false,
+      "description": "Die API ist mit der ausgew\u00E4hlten .NET-Version inkompatibel: erfordert Code\u00E4nderungen, um erfolgreich kompiliert zu werden, wenn eine neue Version als Zielplattform gew\u00E4hlt wird, z.\u00A0B. das Entfernen veralteter APIs oder das \u00C4ndern von Methodensignaturen.",
+      "label": "Die Quelle ist mit der ausgew\u00E4hlten .NET-Version inkompatibel.",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking Changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0003": {
+      "id": "NuGet.0003",
+      "isFeature": false,
+      "description": "Die Funktionalit\u00E4t des NuGet-Pakets ist im Frameworkverweis enthalten.\n\nDas Paket muss entfernt werden.",
+      "label": "Die Funktionalit\u00E4t des NuGet-Pakets ist im Frameworkverweis enthalten",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262609",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0003": {
+      "id": "Api.0003",
+      "isFeature": false,
+      "description": "Die API beinhaltet eine Verhaltens\u00E4nderung in der ausgew\u00E4hlten .NET-Version: Code und Bin\u00E4rdateien verhalten sich zur Laufzeit m\u00F6glicherweise anders, ohne dass eine Neukompilierung erforderlich ist, doch das neue Verhalten ist m\u00F6glicherweise unerw\u00FCnscht und erfordert Updates.",
+      "label": "Verhaltens\u00E4nderung bei ausgew\u00E4hlter .NET-Version",
+      "severity": "Potential",
+      "effort": 1
+    }
+  }
+}

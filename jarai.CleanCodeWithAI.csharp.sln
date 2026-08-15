@@ -156,9 +156,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 KI User Interface", "7 KI User Interface", "{723DD0BD-4EE5-4AD3-9DFB-D59FD7D1949C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{0D38F04C-D85E-4BE4-B43B-DAE2117CDC3E}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\OneDrive\Desktop\KI_unterstuetzte_Clean_Code_Entwicklung.pptx = ..\..\..\..\OneDrive\Desktop\KI_unterstuetzte_Clean_Code_Entwicklung.pptx
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

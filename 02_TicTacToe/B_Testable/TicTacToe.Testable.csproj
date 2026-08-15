@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <OutputType>Exe</OutputType>
     <RootNamespace>Jarai.CleanCodeWithAI.TicTacToe.Testable</RootNamespace>
     <AssemblyName>Jarai.CleanCodeWithAI.TicTacToe.Testable</AssemblyName>
@@ -12,7 +12,5 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="_ReadMe\Aufgaben.txt" />
-    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
-    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
   </ItemGroup>
 </Project>

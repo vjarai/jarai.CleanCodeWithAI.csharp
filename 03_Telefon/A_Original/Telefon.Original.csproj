@@ -1,18 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-	  <TargetFramework>net9.0</TargetFramework>
-    <OutputType>Library</OutputType>
-    <RootNamespace>Jarai.CleanCodeWithAI.Telefon.Original</RootNamespace>
-    <AssemblyName>Jarai.CleanCodeWithAI.Telefon.Original</AssemblyName>
-    <StartupObject />
-    <AssemblyTitle>Jarai.CleanCodeWithAI.State.Original</AssemblyTitle>
-    <Product>Jarai.CleanCodeWithAI.State.Original</Product>
-    <Copyright>Copyright ©  2022</Copyright>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+	  <TargetFramework>net10.0</TargetFramework>
+	<OutputType>Library</OutputType>
+	<RootNamespace>Jarai.CleanCodeWithAI.Telefon.Original</RootNamespace>
+	<AssemblyName>Jarai.CleanCodeWithAI.Telefon.Original</AssemblyName>
+	<StartupObject />
+	<AssemblyTitle>Jarai.CleanCodeWithAI.State.Original</AssemblyTitle>
+	<Product>Jarai.CleanCodeWithAI.State.Original</Product>
+	<Copyright>Copyright ©  2022</Copyright>
+	<AssemblyVersion>1.0.0.0</AssemblyVersion>
+	<FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
-    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
-  </ItemGroup>
 </Project>

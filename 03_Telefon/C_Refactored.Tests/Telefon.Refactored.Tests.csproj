@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-	  <TargetFramework>net9.0</TargetFramework>
-    <OutputType>Library</OutputType>
-    <RootNamespace>Jarai.CleanCodeWithAI.Telefon.Refactored.Tests</RootNamespace>
-    <AssemblyName>Jarai.CleanCodeWithAI.Telefon.Refactored.Tests</AssemblyName>
-    <AssemblyTitle>Jarai.CleanCodeWithAI.State.Refactored.Tests</AssemblyTitle>
-    <Product>Jarai.CleanCodeWithAI.State.Refactored.Tests</Product>
-    <Copyright>Copyright ©  2022</Copyright>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+	  <TargetFramework>net10.0</TargetFramework>
+	<OutputType>Library</OutputType>
+	<RootNamespace>Jarai.CleanCodeWithAI.Telefon.Refactored.Tests</RootNamespace>
+	<AssemblyName>Jarai.CleanCodeWithAI.Telefon.Refactored.Tests</AssemblyName>
+	<AssemblyTitle>Jarai.CleanCodeWithAI.State.Refactored.Tests</AssemblyTitle>
+	<Product>Jarai.CleanCodeWithAI.State.Refactored.Tests</Product>
+	<Copyright>Copyright ©  2022</Copyright>
+	<AssemblyVersion>1.0.0.0</AssemblyVersion>
+	<FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
 
 	<ItemGroup>
@@ -25,5 +25,5 @@
 	<ItemGroup>
 	  <ProjectReference Include="..\C_Refactored\Telefon.Refactored.csproj" />
 	</ItemGroup>
-  
+
 </Project>
