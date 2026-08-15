@@ -30,3 +30,14 @@
 - **Working Branch**: upgrade-dotnet-10
 - **Commit Strategy**: After Each Task
 - **Branch Sync**: Auto (Merge)
+
+## User Preferences
+### Execution Style
+- Fehlgeschlagene (rote) Tests dürfen für die Migration vorübergehend auf Skip gesetzt werden.
+
+### Custom Instructions
+#### 03.03-gildedrose
+- Den fehlschlagenden Conjured-Test im Original-Testprojekt auf Skip setzen, um den Upgrade-Flow fortzusetzen.
+
+## Key Decisions Log
+- 2026-08-15: Für den blockierenden GildedRose-Test wurde entschieden, den roten Test auf Skip zu setzen statt Domänenlogik sofort anzupassen.
