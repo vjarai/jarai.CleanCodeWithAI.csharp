@@ -1,6 +1,6 @@
 # Migration Progress
 
-**Progress**: 6/11 tasks complete <progress value="55" max="100"></progress> 55%
+**Progress**: 7/11 tasks complete <progress value="64" max="100"></progress> 64%
 **Status**: In Progress - Task 03-application-group-domain-katas
 
 ## Tasks
@@ -12,7 +12,7 @@
    - ✅ 03.02-telefon: Telefon-Projekte und Tests auf net10.0 upgraden ([Content](tasks/03.02-telefon/task.md), [Progress](tasks/03.02-telefon/progress-details.md))
    - ✅ 03.03-gildedrose: GildedRose-Projekte und Tests auf net10.0 upgraden ([Content](tasks/03.03-gildedrose/task.md), [Progress](tasks/03.03-gildedrose/progress-details.md))
    - ✅ 03.04-kniffel: Kniffel-Projekte und Tests auf net10.0 upgraden ([Content](tasks/03.04-kniffel/task.md), [Progress](tasks/03.04-kniffel/progress-details.md))
-   - 🔲 03.05-openclosed-liskov: OpenClosed- und Liskov-Projekte inkl. Tests auf net10.0 upgraden
+   - ✅ 03.05-openclosed-liskov: OpenClosed- und Liskov-Projekte inkl. Tests auf net10.0 upgraden ([Content](tasks/03.05-openclosed-liskov/task.md), [Progress](tasks/03.05-openclosed-liskov/progress-details.md))
    - 🔲 03.06-marsrover-routenplaner: MarsRover- und Routenplaner-Projekte inkl. Tests auf net10.0 upgraden
 - 🔲 04-application-group-integration: Integrations- und Spezialprojekte auf net10.0 heben ([Content](tasks/04-application-group-integration/task.md))
 - 🔲 05-library-consolidation-and-cleanup: Konsolidierung und projektweite Bereinigung abschließen ([Content](tasks/05-library-consolidation-and-cleanup/task.md))
