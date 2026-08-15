@@ -3,7 +3,7 @@
   "operationId": "0e357d87-fbbf-4115-bd55-0476a92d73da",
   "description": "Upgrade .NET projects to newer .NET versions, including guidance on current release status, support lifecycle (LTS/STS), and recommended upgrade targets.",
   "startTime": "2026-08-15T18:53:39.3209346Z",
-  "lastUpdateTime": "2026-08-15T19:12:56.2078275Z",
+  "lastUpdateTime": "2026-08-15T19:15:42.5716761Z",
   "properties": {
     "UpgradeTargetFramework": "net10.0",
     "taskStates": {
@@ -14,7 +14,8 @@
       "03.02-telefon": "Completed",
       "03.03-gildedrose": "Completed",
       "03.04-kniffel": "Completed",
-      "03.05-openclosed-liskov": "Completed"
+      "03.05-openclosed-liskov": "Completed",
+      "03.06-marsrover-routenplaner": "Completed"
     }
   },
   "folderPath": ""
