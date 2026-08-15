@@ -3,7 +3,7 @@
   "operationId": "0e357d87-fbbf-4115-bd55-0476a92d73da",
   "description": "Upgrade .NET projects to newer .NET versions, including guidance on current release status, support lifecycle (LTS/STS), and recommended upgrade targets.",
   "startTime": "2026-08-15T18:53:39.3209346Z",
-  "lastUpdateTime": "2026-08-15T19:20:40.6716667Z",
+  "lastUpdateTime": "2026-08-15T19:21:59.7179764Z",
   "properties": {
     "UpgradeTargetFramework": "net10.0",
     "taskStates": {
@@ -19,7 +19,8 @@
       "04-application-group-integration": "InProgress",
       "04.01-datenbank-modelcontext": "Completed",
       "04.02-ibanvalidation": "Completed",
-      "04.03-openapiautomation": "Completed"
+      "04.03-openapiautomation": "Completed",
+      "04.04-marsrover-final": "Completed"
     }
   },
   "folderPath": ""
