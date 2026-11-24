@@ -2,6 +2,15 @@ using System;
 
 namespace Jarai.CleanCodeWithAI.Telefon.Original;
 
+
+public enum TelefonZustand
+{
+    Aufgelegt,
+    Abgehoben,
+    Verbunden
+}
+
+
 public class Telefon
 {
     private TelefonZustand _aktuellerZustand;
