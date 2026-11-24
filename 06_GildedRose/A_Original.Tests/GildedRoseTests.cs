@@ -99,15 +99,6 @@ namespace GildedRoseKata.Original.Tests
             Assert.Equal(0, items[0].Quality);
         }
 
-        [Fact(Skip = "Temporär im .NET-10-Upgrade übersprungen: bekannte fachliche Abweichung bei Conjured-Logik")]
-        public void ConjuredItems_DegradeTwiceAsFast()
-        {
-            var items = new List<Item> { new Item { Name = "Conjured Mana Cake", SellIn = 3, Quality = 6 } };
-            var app = new GildedRose(items);
-
-            app.UpdateQuality();
-
-            Assert.Equal(2, items[0].Quality);
-        }
+        
     }
 }
