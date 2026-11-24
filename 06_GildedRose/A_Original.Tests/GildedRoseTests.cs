@@ -6,7 +6,7 @@ namespace GildedRoseKata.Original.Tests
     public class GildedRoseTests
     {
         [Fact]
-        public void GivenNormalItemBeforeSellByDate_WhenQualityIsUpdated_ThenSellInAndQualityDecreaseByOne()
+        public void GivenNormalItemBeforeSellByDate_WhenUpdateQuality_ThenSellInAndQualityDecreaseByOne()
         {
             var items = new List<Item> { new Item { Name = "foo", SellIn = 10, Quality = 20 } };
             var app = new GildedRose(items);
@@ -18,7 +18,7 @@ namespace GildedRoseKata.Original.Tests
         }
 
         [Fact]
-        public void GivenNormalItemOnSellByDate_WhenQualityIsUpdated_ThenSellInDecreasesByOneAndQualityByTwo()
+        public void GivenNormalItemOnSellByDate_WhenUpdateQuality_ThenSellInDecreasesByOneAndQualityByTwo()
         {
             var items = new List<Item> { new Item { Name = "foo", SellIn = 0, Quality = 10 } };
             var app = new GildedRose(items);
@@ -30,7 +30,7 @@ namespace GildedRoseKata.Original.Tests
         }
 
         [Fact]
-        public void GivenNormalItemWithZeroQuality_WhenQualityIsUpdated_ThenQualityRemainsZero()
+        public void GivenNormalItemWithZeroQuality_WhenUpdateQuality_ThenQualityRemainsZero()
         {
             var items = new List<Item> { new Item { Name = "foo", SellIn = 5, Quality = 0 } };
             var app = new GildedRose(items);
@@ -41,7 +41,7 @@ namespace GildedRoseKata.Original.Tests
         }
 
         [Fact]
-        public void GivenAgedBrieBeforeSellByDate_WhenQualityIsUpdated_ThenQualityIncreasesByOne()
+        public void GivenAgedBrieBeforeSellByDate_WhenUpdateQuality_ThenQualityIncreasesByOne()
         {
             var items = new List<Item> { new Item { Name = "Aged Brie", SellIn = 2, Quality = 0 } };
             var app = new GildedRose(items);
@@ -52,7 +52,7 @@ namespace GildedRoseKata.Original.Tests
         }
 
         [Fact]
-        public void GivenAgedBrieAtMaximumQuality_WhenQualityIsUpdated_ThenQualityRemainsFifty()
+        public void GivenAgedBrieAtMaximumQuality_WhenUpdateQuality_ThenQualityRemainsFifty()
         {
             var items = new List<Item> { new Item { Name = "Aged Brie", SellIn = 2, Quality = 50 } };
             var app = new GildedRose(items);
@@ -63,7 +63,7 @@ namespace GildedRoseKata.Original.Tests
         }
 
         [Fact]
-        public void GivenSulfuras_WhenQualityIsUpdated_ThenSellInAndQualityRemainUnchanged()
+        public void GivenSulfuras_WhenUpdateQuality_ThenSellInAndQualityRemainUnchanged()
         {
             var items = new List<Item> { new Item { Name = "Sulfuras, Hand of Ragnaros", SellIn = 0, Quality = 80 } };
             var app = new GildedRose(items);
@@ -78,7 +78,7 @@ namespace GildedRoseKata.Original.Tests
         [InlineData(15, 20, 21)]
         [InlineData(10, 20, 22)]
         [InlineData(5, 20, 23)]
-        public void GivenBackstagePassBeforeConcert_WhenQualityIsUpdated_ThenQualityIncreasesAccordingToSellIn(int sellIn, int quality, int expectedQuality)
+        public void GivenBackstagePassBeforeConcert_WhenUpdateQuality_ThenQualityIncreasesAccordingToSellIn(int sellIn, int quality, int expectedQuality)
         {
             var items = new List<Item> { new Item { Name = "Backstage passes to a TAFKAL80ETC concert", SellIn = sellIn, Quality = quality } };
             var app = new GildedRose(items);
@@ -89,7 +89,7 @@ namespace GildedRoseKata.Original.Tests
         }
 
         [Fact]
-        public void GivenBackstagePassOnConcertDate_WhenQualityIsUpdated_ThenQualityDropsToZero()
+        public void GivenBackstagePassOnConcertDate_WhenUpdateQuality_ThenQualityDropsToZero()
         {
             var items = new List<Item> { new Item { Name = "Backstage passes to a TAFKAL80ETC concert", SellIn = 0, Quality = 20 } };
             var app = new GildedRose(items);
