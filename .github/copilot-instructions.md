@@ -1,4 +1,6 @@
 # Copilot Instructions
 
 ## Projektrichtlinien
-- Im aktuellen Upgrade-Szenario sollen fehlschlagende (rote) Tests bei Bedarf per Skip markiert werden, um den Migrationsfluss fortzusetzen.
+Benutze Junit5 für unit test in Java
+Benutze xUnit für Unit tests in C#
+Benutze AAA für Unit Tests und given_when_then für Test Namen
